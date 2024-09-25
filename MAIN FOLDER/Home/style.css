@@ -29,3 +29,13 @@ nav {
     z-index: 999;
     height:100px;
 }
+
+video {
+    width: 1920px;
+    display: block;
+    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
+    position: static;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
