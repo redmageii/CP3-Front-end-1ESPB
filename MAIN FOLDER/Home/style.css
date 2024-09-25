@@ -142,3 +142,64 @@ a.donate_btn, a.adopt_btn {
     margin-top:100px;
     position:absolute;
 }
+
+.home_text img.crosshatch {
+    height:auto;
+    width:100px;
+    margin-left: 1360px;
+    margin-top:469px;
+    position:absolute;
+}
+
+.line {
+    width: 71%;
+    height: 3px;
+    background-color: #FDF877;
+    position: absolute;
+    z-index: 995;
+    top: 661px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
+.home_text2 img.cat {
+    height:auto;
+    width:400px;
+    margin-left: 95px;
+    margin-top:120px;
+    position:absolute;
+
+}
+
+.home_text2 p.alimente {
+    font-family: "Anton", sans-serif;
+    font-size: 55px;
+    color: #000000;
+    margin-left:753px;
+    margin-top: 120px;
+    position:absolute;
+}
+.home_text2 p.esperança {
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    color: #5F377B;
+    margin-left:750px;
+    margin-top: 155px;
+    position:absolute;
+}
+.home_text2 p.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    font-weight:400;
+    color: #000000;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: center;
+    margin-left:640px;
+    width: 54%;
+    margin-top: 320px;
+    position:absolute;
+
+}
