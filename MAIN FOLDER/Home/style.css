@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ESTILO DO BODY E HTML */
+body, html { 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
+    z-index: -1;
+    height: 1685px;
+    overflow-x:hidden;
+}
+
+/* PARÂMETROS DE AJUSTE PARA A POSIÇÃO DO LOGO NO MENU DE NAVEGAÇÃO */
+img.logo { 
+    max-width: 140px;
+    height: auto;
+    margin-left: 380px;
+}
+
+nav {
+    background-image: url('media/navmenu-background.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -200px;
+    padding: 20px 0px;
+    overflow: hidden;
+    z-index: 999;
+    height:100px;
+}
