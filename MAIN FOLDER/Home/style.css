@@ -40,6 +40,35 @@ video {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.love_btn{
+    position:absolute;
+    padding: 75px 340px;
+}
+
+.love_btn .amor {
+    position: absolute;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 100px;
+    outline:2px solid;	
+    color: #ffffff;
+    z-index: 999;
+    
+    /*AJUSTES PARA A BORDA DO BOTÃO */
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -180%;
+    left: 190%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 a:not(.donate_btn, .adopt_btn) {
     font-family: 'Comfortaa', sans-serif;
     font-weight:700;
@@ -67,4 +96,49 @@ a.donate_btn, a.adopt_btn {
     text-decoration: none;
     position: relative;
     right: 495px;
+}
+/*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
+
+.home_text {
+    position:absolute;
+    padding: 10px 270px;
+}
+
+.home_text p.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    font-weight:300;
+    color: #ffffff;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left:0;
+    width: 54%;
+    margin-top: -180px;
+    position:absolute;
+}
+
+.home_text p.welcome {
+
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    margin-left:10px;
+
+}
+
+.home_text p.friend {
+    font-family: "Anton", sans-serif;
+    font-size: 148px;
+    color: #FDF877;
+    margin-top: -134px;
+    
+}
+
+.home_text img.dog {
+    height:auto;
+    width:400px;
+    margin-left: 850px;
+    margin-top:100px;
+    position:absolute;
 }
