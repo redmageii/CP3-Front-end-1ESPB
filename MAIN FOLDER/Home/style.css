@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ESTILO DO BODY E HTML */
+body, html { 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
+    z-index: -1;
+    height: 1685px;
+    overflow-x:hidden;
+}
+
+/* PARÂMETROS DE AJUSTE PARA A POSIÇÃO DO LOGO NO MENU DE NAVEGAÇÃO */
+img.logo { 
+    max-width: 140px;
+    height: auto;
+    margin-left: 380px;
+}
+
+nav {
+    background-image: url('media/navmenu-background.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -200px;
+    padding: 20px 0px;
+    overflow: hidden;
+    z-index: 999;
+    height:100px;
+}
+
+video {
+    width: 1920px;
+    display: block;
+    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
+    position: static;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.love_btn{
+    position:absolute;
+    padding: 75px 340px;
+}
+
+.love_btn .amor {
+    position: absolute;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 100px;
+    outline:2px solid;	
+    color: #ffffff;
+    z-index: 999;
+    
+    /*AJUSTES PARA A BORDA DO BOTÃO */
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -180%;
+    left: 190%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+a:not(.donate_btn, .adopt_btn) {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:700;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    padding: 0px 15px;
+    margin-top: 45px;
+    margin-right: 5px;
+    text-decoration: none;
+    position: relative;
+    right: 605px;
+    top:4px;
+}
+
+a:not(.donate_btn, .adopt_btn, .amor):hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
+.love_btn .amor:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color:#5F377B;
+    text-decoration:underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+a.donate_btn, a.adopt_btn {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    padding: 0px 5px;
+    margin-top: 45px;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+    right: 495px;
+}
+
+/*BORDA CENTRALIZADA AOS BOTÕES*/
+
+a.donate_btn {
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #000000;
+    margin-right: 5px;
+    width:80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:8px;
+    right:390px;
+}
+a.adopt_btn {
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #ffffff;
+    margin-right: 5px;
+    width:80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:8px;
+    right:390px;
+}
+
+/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE */
+
+a.donate_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #FDF877;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+a.adopt_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #5F377B;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+
+
+/*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
+
+.home_text {
+    position:absolute;
+    padding: 10px 270px;
+}
+
+.home_text p.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    font-weight:300;
+    color: #ffffff;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left:0;
+    width: 54%;
+    margin-top: -180px;
+    position:absolute;
+}
+
+.home_text p.welcome {
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    margin-left:10px;
+}
+
+.home_text p.friend {
+    font-family: "Anton", sans-serif;
+    font-size: 148px;
+    color: #FDF877;
+    margin-top: -134px; 
+}
+
+.home_text img.dog {
+    height:auto;
+    width:400px;
+    margin-left: 850px;
+    margin-top:100px;
+    position:absolute;
+}
+
+.home_text img.crosshatch {
+    height:auto;
+    width:100px;
+    margin-left: 1360px;
+    margin-top:469px;
+    position:absolute;
+}
+
+.line {
+    width: 71%;
+    height: 3px;
+    background-color: #FDF877;
+    position: absolute;
+    z-index: 995;
+    top: 661px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
+.home_text2 img.cat {
+    height:auto;
+    width:400px;
+    margin-left: 95px;
+    margin-top:120px;
+    position:absolute;
+}
+.home_text2 p.alimente {
+    font-family: "Anton", sans-serif;
+    font-size: 55px;
+    color: #000000;
+    margin-left:753px;
+    margin-top: 120px;
+    position:absolute;
+}
+.home_text2 p.esperança {
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    color: #5F377B;
+    margin-left:750px;
+    margin-top: 155px;
+    position:absolute;
+}
+.home_text2 p.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    font-weight:400;
+    color: #000000;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left:640px;
+    width: 54%;
+    margin-top: 320px;
+    position:absolute;
+}
