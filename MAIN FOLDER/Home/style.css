@@ -39,3 +39,32 @@ video {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+a:not(.donate_btn, .adopt_btn) {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:700;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    padding: 0px 15px;
+    margin-top: 45px;
+    margin-right: 5px;
+    text-decoration: none;
+    position: relative;
+    right: 605px;
+    top:4px;
+}
+
+a.donate_btn, a.adopt_btn {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    padding: 0px 5px;
+    margin-top: 45px;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+    right: 495px;
+}
