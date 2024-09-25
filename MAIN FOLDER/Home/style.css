@@ -97,6 +97,64 @@ a.donate_btn, a.adopt_btn {
     position: relative;
     right: 495px;
 }
+
+/*BORDA CENTRALIZADA AOS BOTÕES*/
+
+a.donate_btn {
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #000000;
+    margin-right: 5px;
+    width:80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:8px;
+    right:390px;
+}
+a.adopt_btn {
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #ffffff;
+    margin-right: 5px;
+    width:80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:8px;
+    right:390px;
+}
+
+/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE */
+
+a.donate_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #FDF877;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+a.adopt_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #5F377B;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+
+
 /*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
 
 .home_text {
@@ -119,20 +177,17 @@ a.donate_btn, a.adopt_btn {
 }
 
 .home_text p.welcome {
-
     font-family: "Anton", sans-serif;
     font-size: 75px;
     color: #ffffff;
     margin-left:10px;
-
 }
 
 .home_text p.friend {
     font-family: "Anton", sans-serif;
     font-size: 148px;
     color: #FDF877;
-    margin-top: -134px;
-    
+    margin-top: -134px; 
 }
 
 .home_text img.dog {
@@ -160,7 +215,6 @@ a.donate_btn, a.adopt_btn {
     top: 661px;
     left: 50%;
     transform: translateX(-50%);
-    
 }
 
 /*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
@@ -170,9 +224,7 @@ a.donate_btn, a.adopt_btn {
     margin-left: 95px;
     margin-top:120px;
     position:absolute;
-
 }
-
 .home_text2 p.alimente {
     font-family: "Anton", sans-serif;
     font-size: 55px;
@@ -196,10 +248,9 @@ a.donate_btn, a.adopt_btn {
     color: #000000;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
-    text-align-last: center;
+    text-align-last: left;
     margin-left:640px;
     width: 54%;
     margin-top: 320px;
     position:absolute;
-
 }
