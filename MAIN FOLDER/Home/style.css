@@ -18,15 +18,11 @@ img.logo {
 }
 
 nav {
-    background-image: url('media/navmenu-background.png');
-    background-position: top;
+    background-image: url('media/navmenu-background-01.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position-y: -200px;
     padding: 20px 0px;
     overflow: hidden;
-    z-index: 999;
     height:100px;
 }
 
@@ -183,7 +179,7 @@ a.adopt_btn:hover {
 
 .home_text p.text1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
@@ -236,6 +232,17 @@ a.adopt_btn:hover {
     transform: translateX(-50%);
 }
 
+.line2 {
+    width: 71%;
+    height: 1px;
+    background-color: #FDF877;
+    position: absolute;
+    z-index: 995;
+    top: 2200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
 .home_text2 img.cat {
     height:auto;
@@ -244,6 +251,15 @@ a.adopt_btn:hover {
     margin-top:140px;
     position:absolute;
 }
+.home_text2 img.cross {
+    position:absolute;
+    height:auto;
+    width:100px;
+    margin-top:521px;
+    margin-left:-90px;
+
+ }   
+
 .home_text2 p.alimente {
     font-family: "Anton", sans-serif;
     font-size: 55px;
@@ -262,31 +278,33 @@ a.adopt_btn:hover {
 }
 .home_text2 p.text2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     font-weight:400;
     color: #000000;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
     margin-left:640px;
-    width: 50%;
+    width: 45%;
     margin-top: 310px;
     position:absolute;
 }
+
+
+
 .about_btn .about{
 
     font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    color: #000000;
-    float: right;
+    color: #5F377B;
     padding: 0px 5px;
-    margin-top: 45px;
+    margin-top: 35px;
     margin-right: 50px;
     text-decoration: none;
     position: relative;
     left: 137px;
-    top:390px;
+    top:410px;
 
 }
 /* NEW BACKGROUND SECTION */
@@ -297,6 +315,15 @@ a.adopt_btn:hover {
     position: absolute;
     z-index: -1;
     margin-top:1500px
+}
+
+.footer-background {
+    background-color: #181B1B;
+    width: 100%; 
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    margin-top:2000px
 }
 
 
@@ -317,7 +344,6 @@ a.adopt_btn:hover {
     margin-top: 625px;
     right:120px;
     position:absolute
-    
 
 }
 .home_text3 .somos {
@@ -331,7 +357,7 @@ a.adopt_btn:hover {
 }
 .home_text3 .text3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
@@ -343,12 +369,56 @@ a.adopt_btn:hover {
     position:absolute;
 }
 
-footer .footer_background {
-        background-color: #fdfdfd;
-        width: 100%; 
-        height: 500px;
-        position: absolute;
-        z-index: -1;
-        margin-top:1500px;
+footer .logo-footer {
 
+    max-width: 80px;
+    height: auto;
+    margin-left: 80px;
+    position:absolute;
+    top: 1635px;
+}
+
+footer .contato {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+    left: 900px;
+    top: 1730px;
+
+}
+footer .contato .footer-contato {
+    color:#ffffff;
+    font-weight: 800;
+}
+
+ul a img{
+    left:538px;
+    top:-75px;
+    position:absolute;
+}
+
+ul img.instagram{
+    position:absolute;
+    height:35px;
+    width:auto;
+}
+
+ul img.whatsapp{
+    position:absolute;
+    height:35px;
+    width:auto;
+    margin-left:90px;
+}
+
+ul.footer_menu li{
+    list-style-type: none;
+    text-align: center;
+    position:relative;
+    left:1000px;
+    top:1100px;
+}
+ul.footer_menu li a{
+    color:#FDF877;
+    margin-left: 20px;
 }
