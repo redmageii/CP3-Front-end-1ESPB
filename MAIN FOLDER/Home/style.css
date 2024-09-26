@@ -17,6 +17,7 @@ img.logo {
     margin-left: 380px;
 }
 
+/*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
 nav {
     background-image: url('media/navmenu-background-01.png');
     background-repeat: no-repeat;
@@ -25,46 +26,6 @@ nav {
     overflow: hidden;
     height:100px;
 }
-
-video {
-    width: 1920px;
-    display: block;
-    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
-    position: static;
-    z-index: -2;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.love_btn{
-    position:absolute;
-    padding: 75px 340px;
-}
-
-.love_btn .amor {
-    position: absolute;
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #000000;
-    border-radius: 100px;
-    outline:2px solid;	
-    color: #ffffff;
-    z-index: 999;
-    
-    /*AJUSTES PARA A BORDA DO BOTÃO */
-    width:100px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -180%;
-    left: 190%;
-    transform: translate(-50%, -50%);
-}
-
-
-
 a:not(.donate_btn, .adopt_btn) {
     font-family: 'Comfortaa', sans-serif;
     font-weight:700;
@@ -80,6 +41,7 @@ a:not(.donate_btn, .adopt_btn) {
     top:4px;
 }
 
+/*EFEITOS DE TRANSIÇÃO NA BARRA DE NAVEGAÇÃO*/
 a:not(.donate_btn, .adopt_btn, .amor):hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
@@ -87,18 +49,6 @@ a:not(.donate_btn, .adopt_btn, .amor):hover {
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
-
-.love_btn .amor:hover {
-    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
-    border-radius: 100px;
-    background-color: #ffffff;
-    color:#5F377B;
-    text-decoration:underline;
-    text-decoration-color: #5F377B;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 3px;
-}
-
 a.donate_btn, a.adopt_btn {
     font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
@@ -112,7 +62,6 @@ a.donate_btn, a.adopt_btn {
     position: relative;
     right: 495px;
 }
-
 /*BORDA CENTRALIZADA AOS BOTÕES*/
 
 a.donate_btn {
@@ -142,7 +91,7 @@ a.adopt_btn {
     right:390px;
 }
 
-/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE */
+/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE NOS BOTÕES DE DOAÇÃO E ADOÇÃO */
 
 a.donate_btn:hover {
     transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
@@ -169,6 +118,56 @@ a.adopt_btn:hover {
 }
 
 
+
+/*AJUSTES POSICIONAIS DO VÍDEO DA PÁGINA INTRODUTÓRIA*/
+video {
+    width: 1920px;
+    display: block;
+    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
+    position: static;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+/*PARÂMETROS DE ESTILO PARA O BOTÃO SOBREPOSTO NO VÍDEO*/
+.love_btn{
+    position:absolute;
+    padding: 75px 340px;
+}
+
+.love_btn .amor {
+    position: absolute;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 100px;
+    outline:2px solid;	
+    color: #ffffff;
+    z-index: 999;
+    
+    /*AJUSTES PARA A BORDA DO BOTÃO */
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -180%;
+    left: 190%;
+    transform: translate(-50%, -50%);
+}
+
+
+.love_btn .amor:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color:#5F377B;
+    text-decoration:underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
 
 /*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
 
@@ -220,7 +219,7 @@ a.adopt_btn:hover {
     margin-top:469px;
     position:absolute;
 }
-
+/*LINHAS PARA DIVISÃO VISUAL*/
 .line {
     width: 71%;
     height: 3px;
@@ -290,8 +289,6 @@ a.adopt_btn:hover {
     position:absolute;
 }
 
-
-
 .about_btn .about{
 
     font-family: 'Comfortaa', sans-serif;
@@ -307,7 +304,7 @@ a.adopt_btn:hover {
     top:410px;
 
 }
-/* NEW BACKGROUND SECTION */
+/* NOVA SEÇÃO DE BACKGROUND */
 .new-background {
     background-color: #5F377B;
     width: 100%; 
@@ -325,8 +322,7 @@ a.adopt_btn:hover {
     z-index: -1;
     margin-top:2000px
 }
-
-
+/*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
 
 .home_text3 .united {
     height:auto;
@@ -368,6 +364,7 @@ a.adopt_btn:hover {
     margin-top: 780px;
     position:absolute;
 }
+/*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
 
 footer .logo-footer {
 
