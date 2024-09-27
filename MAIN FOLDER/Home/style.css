@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ESTILO DO BODY E HTML */
+body, html { 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
+    z-index: -1;
+    height: 1685px;
+    overflow-x:hidden;
+}
+
+/* PARÂMETROS DE AJUSTE PARA A POSIÇÃO DO LOGO NO MENU DE NAVEGAÇÃO */
+img.logo { 
+    max-width: 140px;
+    height: auto;
+    margin-left: 380px;
+}
+
+/*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
+nav {
+    background-image: url('media/navmenu-background-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    overflow: hidden;
+    height:100px;
+}
+a:not(.donate_btn, .adopt_btn) {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:700;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    padding: 0px 15px;
+    margin-top: 45px;
+    margin-right: 5px;
+    text-decoration: none;
+    position: relative;
+    right: 605px;
+    top:4px;
+}
+
+/*EFEITOS DE TRANSIÇÃO NA BARRA DE NAVEGAÇÃO*/
+a:not(.donate_btn, .adopt_btn, .amor):hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+a.donate_btn, a.adopt_btn {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+    padding: 0px 5px;
+    margin-top: 45px;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+    right: 495px;
+}
+/*BORDA CENTRALIZADA AOS BOTÕES*/
+
+a.donate_btn {
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #000000;
+    margin-right: 5px;
+    width:80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:8px;
+    right:390px;
+}
+a.adopt_btn {
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #ffffff;
+    margin-right: 5px;
+    width:80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:8px;
+    right:390px;
+}
+
+/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE NOS BOTÕES DE DOAÇÃO E ADOÇÃO */
+
+a.donate_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #FDF877;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+a.adopt_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #5F377B;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+
+
+/*AJUSTES POSICIONAIS DO VÍDEO DA PÁGINA INTRODUTÓRIA*/
+video {
+    width: 1920px;
+    display: block;
+    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
+    position: static;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+/*PARÂMETROS DE ESTILO PARA O BOTÃO SOBREPOSTO NO VÍDEO*/
+.love_btn{
+    position:absolute;
+    padding: 75px 340px;
+}
+
+.love_btn .amor {
+    position: absolute;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 100px;
+    outline:2px solid;	
+    color: #ffffff;
+    z-index: 999;
+    
+    /*AJUSTES PARA A BORDA DO BOTÃO */
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -180%;
+    left: 190%;
+    transform: translate(-50%, -50%);
+}
+
+
+.love_btn .amor:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color:#5F377B;
+    text-decoration:underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+/*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
+
+.home_text {
+    position:absolute;
+    padding: 10px 270px;
+}
+
+.home_text p.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05vw;
+    font-weight:300;
+    color: #ffffff;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left:0;
+    width: 54%;
+    margin-top: -180px;
+    position:absolute;
+}
+
+.home_text p.welcome {
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    margin-left:10px;
+}
+
+.home_text p.friend {
+    font-family: "Anton", sans-serif;
+    font-size: 148px;
+    color: #FDF877;
+    margin-top: -134px; 
+}
+
+.home_text img.dog {
+    height:auto;
+    width:400px;
+    margin-left: 850px;
+    margin-top:100px;
+    position:absolute;
+}
+
+.home_text img.crosshatch {
+    height:auto;
+    width:100px;
+    margin-left: 1360px;
+    margin-top:469px;
+    position:absolute;
+}
+/*LINHAS PARA DIVISÃO VISUAL*/
+.line {
+    width: 71%;
+    height: 3px;
+    background-color: #FDF877;
+    position: absolute;
+    z-index: 995;
+    top: 661px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line2 {
+    width: 71%;
+    height: 1px;
+    background-color: #FDF877;
+    position: absolute;
+    z-index: 995;
+    top: 2200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
+.home_text2 img.cat {
+    height:auto;
+    width:400px;
+    margin-left: 95px;
+    margin-top:140px;
+    position:absolute;
+}
+.home_text2 img.cross {
+    position:absolute;
+    height:auto;
+    width:100px;
+    margin-top:521px;
+    margin-left:-90px;
+
+ }   
+
+.home_text2 p.alimente {
+    font-family: "Anton", sans-serif;
+    font-size: 55px;
+    color: #000000;
+    margin-left:643px;
+    margin-top: 120px;
+    position:absolute;
+}
+.home_text2 p.esperança {
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    color: #5F377B;
+    margin-left:640px;
+    margin-top: 155px;
+    position:absolute;
+}
+.home_text2 p.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05vw;
+    font-weight:400;
+    color: #000000;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left:640px;
+    width: 45%;
+    margin-top: 310px;
+    position:absolute;
+}
+
+.about_btn .about{
+
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #5F377B;
+    padding: 0px 5px;
+    margin-top: 35px;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+    left: 137px;
+    top:410px;
+
+}
+/* NOVA SEÇÃO DE BACKGROUND */
+.new-background {
+    background-color: #5F377B;
+    width: 100%; 
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    margin-top:1500px
+}
+
+.footer-background {
+    background-color: #181B1B;
+    width: 100%; 
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    margin-top:2000px
+}
+/*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
+
+.home_text3 .united {
+    height:auto;
+    width:500px;
+    margin-top:620px;
+    margin-left: 100px;
+    position:absolute;
+
+}
+
+.home_text3 .juntos {
+    font-family: "Anton", sans-serif;
+    font-size: 55px;
+    color: #FDF877;
+    margin-top: 625px;
+    right:120px;
+    position:absolute
+
+}
+.home_text3 .somos {
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    margin-top: 675px;
+    right:-85px;
+    position:absolute
+
+}
+.home_text3 .text3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05vw;
+    font-weight:300;
+    color: #ffffff;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left:640px;
+    width: 54%;
+    margin-top: 780px;
+    position:absolute;
+}
+/*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
+
+footer .logo-footer {
+
+    max-width: 80px;
+    height: auto;
+    margin-left: 80px;
+    position:absolute;
+    top: 1635px;
+}
+
+footer .contato {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+    left: 900px;
+    top: 1730px;
+
+}
+footer .contato .footer-contato {
+    color:#ffffff;
+    font-weight: 800;
+}
+
+ul a img{
+    left:538px;
+    top:-75px;
+    position:absolute;
+}
+
+ul img.instagram{
+    position:absolute;
+    height:35px;
+    width:auto;
+}
+
+ul img.whatsapp{
+    position:absolute;
+    height:35px;
+    width:auto;
+    margin-left:90px;
+}
+
+ul.footer_menu li{
+    list-style-type: none;
+    text-align: center;
+    position:relative;
+    left:1000px;
+    top:1100px;
+}
+ul.footer_menu li a{
+    color:#FDF877;
+    margin-left: 20px;
+}
