@@ -10,7 +10,7 @@ body{
 }
 /*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
 .navtop {
-    background-image: url('media/navmenu-background-01.png');
+    background-image: url('media/nav_bg-01.png');
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -172,10 +172,12 @@ a{
 /*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
 
 .home_text {
-    position:absolute;
     padding: 10px 305px;
+    position:absolute;
 }
-
+.text1, .welcome, .friend, .dog, .crosshatch{
+    left:35vw;
+}
 .home_text p.text1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -184,8 +186,8 @@ a{
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    margin-left:0;
-    width: 47.5%;
+    margin-left:-300px;
+    width: 78%;
     margin-top: -150px;
     position:absolute;
 }
@@ -194,25 +196,29 @@ a{
     font-family: "Anton", sans-serif;
     font-size: 60px;
     color: #ffffff;
-    margin-left:10px;
+    margin-left:-595px;
     margin-top: 80px; 
+    position:relative;
+    
 }
 
 .home_text p.friend {
     font-family: "Anton", sans-serif;
     font-size: 128px;
     color: #FDF877;
-    margin-top: -109px; 
+    margin-top: -109px;
+    margin-left:-605px;
+    position:relative;
 }
 
 
 .home_text img.dog {
     height:auto;
     float:right;
-    width:19vw;
-    left:54%;
+    width:52%;
+    min-width:250px;
+    margin-left:450px;
     margin-top:100px;
-    transform: translate(130%, 0%);
     position:absolute;
 }
 
@@ -220,7 +226,7 @@ a{
 .home_text img.crosshatch {
     height:auto;
     width:100px;
-    margin-left: 1280px;
+    margin-left: 900px;
     margin-top:430px;
     position:absolute;
 }
@@ -237,19 +243,27 @@ a{
 }
 
 /*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
+.home_text2 {
+    position: relative;
+}
+.cat, .alimente, .esperança, .text2, .about {
+    left:35vw;
+}
+
+
 .home_text2 img.cat {
     height:auto;
-    width:22vw;
-    left:35%;
+    width:470%;
     margin-top:150px;
+    margin-left:-600px;
     position:absolute;
 }
 .home_text2 img.cross {
     position:absolute;
     height:auto;
-    width:100px;
-    margin-top:500.1px;
-    margin-left:-90px;
+    width:90px;
+    margin-top:505px;
+    margin-left:-150px;
 
  }   
 
@@ -257,7 +271,6 @@ a{
     font-family: "Anton", sans-serif;
     font-size: 55px;
     color: #000000;
-    left:82.2%;
     margin-top: 120px;
     position:absolute;
 }
@@ -265,7 +278,6 @@ a{
     font-family: "Anton", sans-serif;
     font-size: 100px;
     color: #5F377B;
-    left:82%;
     margin-top: 155px;
     position:absolute;
 }
@@ -277,8 +289,7 @@ a{
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    left:82.2%;
-    width: 36%;
+    width: 550%;
     margin-top: 305px;
     position:absolute;
 }
@@ -292,7 +303,6 @@ a{
     padding: 0px 5px;
     text-decoration: none;
     position: relative;
-    left: 116.5%;
     top:455px;
 }
 
@@ -316,11 +326,15 @@ a{
 
 /*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
 
+.home_text3, .united, .juntos, .somos, .text3 {
+    left:50vw;
+}
+
 .home_text3 .united {
     height:auto;
     width:500px;
     top:221%;
-    left:29%;
+    margin-left:-600px;
     position:absolute;
 
 }
@@ -330,7 +344,6 @@ a{
     font-size: 55px;
     color: #FDF877;
     top: 210%;
-    left:82%;
     position:absolute
 
 }
@@ -339,7 +352,6 @@ a{
     font-size: 75px;
     color: #ffffff;
     top:216%;
-    left:82%;
     width:100%;
     position:absolute
 
@@ -352,9 +364,8 @@ a{
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    width: 45%;
+    width: 75%;
     top:250%;
-    left:82%;
     position:absolute;
 }
 
