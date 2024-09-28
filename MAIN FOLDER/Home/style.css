@@ -5,10 +5,9 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
-    height: 1685px;
+    height: 1570px;
     overflow-x:hidden;
 }
-
 /*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
 .navtop {
     background-image: url('media/navmenu-background-01.png');
@@ -26,7 +25,6 @@ body{
     height: auto;
     transform: translate(290%, 0%);
 }
-
 
 .navtop a{
     font-family: 'Comfortaa', sans-serif;
@@ -58,10 +56,10 @@ body{
 }
 
 /*EFEITOS DE TRANSIÇÃO NA BARRA DE NAVEGAÇÃO*/
-a:not(.donate_btn, .adopt_btn, .amor):hover {
+.navtop a:not(.donate_btn, .adopt_btn, .amor):hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #5F377B;
+    text-decoration-color: #764599;
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
@@ -131,9 +129,12 @@ video {
 /*PARÂMETROS DE ESTILO PARA O BOTÃO SOBREPOSTO NO VÍDEO*/
 .love_btn{
     position:absolute;
-    padding: 75px 340px;
+    left:80%;
+    top:340px;
 }
-
+a{
+    text-decoration: none;
+}
 .love_btn .amor {
     position: absolute;
     font-family: 'Comfortaa', sans-serif;
@@ -172,71 +173,65 @@ video {
 
 .home_text {
     position:absolute;
-    padding: 10px 270px;
+    padding: 10px 305px;
 }
 
 .home_text p.text1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.05vw;
+    font-size: 20px;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
     margin-left:0;
-    width: 54%;
-    margin-top: -180px;
+    width: 47.5%;
+    margin-top: -150px;
     position:absolute;
 }
 
 .home_text p.welcome {
     font-family: "Anton", sans-serif;
-    font-size: 75px;
+    font-size: 60px;
     color: #ffffff;
     margin-left:10px;
+    margin-top: 80px; 
 }
 
 .home_text p.friend {
     font-family: "Anton", sans-serif;
-    font-size: 148px;
+    font-size: 128px;
     color: #FDF877;
-    margin-top: -134px; 
+    margin-top: -109px; 
 }
+
 
 .home_text img.dog {
     height:auto;
-    width:400px;
-    margin-left: 850px;
+    float:right;
+    width:19vw;
+    left:54%;
     margin-top:100px;
+    transform: translate(130%, 0%);
     position:absolute;
 }
+
 
 .home_text img.crosshatch {
     height:auto;
     width:100px;
-    margin-left: 1360px;
-    margin-top:469px;
+    margin-left: 1280px;
+    margin-top:430px;
     position:absolute;
 }
 /*LINHAS PARA DIVISÃO VISUAL*/
 .line {
-    width: 71%;
+    width: 80%;
     height: 3px;
     background-color: #FDF877;
     position: absolute;
     z-index: 995;
-    top: 661px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.line2 {
-    width: 71%;
-    height: 1px;
-    background-color: #FDF877;
-    position: absolute;
-    z-index: 995;
-    top: 2200px;
+    top: 625px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -244,16 +239,16 @@ video {
 /*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
 .home_text2 img.cat {
     height:auto;
-    width:400px;
-    margin-left: 95px;
-    margin-top:140px;
+    width:22vw;
+    left:35%;
+    margin-top:150px;
     position:absolute;
 }
 .home_text2 img.cross {
     position:absolute;
     height:auto;
     width:100px;
-    margin-top:521px;
+    margin-top:500.1px;
     margin-left:-90px;
 
  }   
@@ -262,7 +257,7 @@ video {
     font-family: "Anton", sans-serif;
     font-size: 55px;
     color: #000000;
-    margin-left:643px;
+    left:82.2%;
     margin-top: 120px;
     position:absolute;
 }
@@ -270,21 +265,21 @@ video {
     font-family: "Anton", sans-serif;
     font-size: 100px;
     color: #5F377B;
-    margin-left:640px;
+    left:82%;
     margin-top: 155px;
     position:absolute;
 }
 .home_text2 p.text2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.05vw;
+    font-size: 20px;
     font-weight:400;
     color: #000000;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    margin-left:640px;
-    width: 45%;
-    margin-top: 310px;
+    left:82.2%;
+    width: 36%;
+    margin-top: 305px;
     position:absolute;
 }
 
@@ -295,14 +290,20 @@ video {
     font-size: 15px;
     color: #5F377B;
     padding: 0px 5px;
-    margin-top: 35px;
-    margin-right: 50px;
     text-decoration: none;
     position: relative;
-    left: 137px;
-    top:410px;
-
+    left: 116.5%;
+    top:455px;
 }
+
+.about_btn .about:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #764599;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
 /* NOVA SEÇÃO DE BACKGROUND */
 .new-background {
     background-color: #5F377B;
@@ -310,24 +311,16 @@ video {
     height: 500px;
     position: absolute;
     z-index: -1;
-    margin-top:1500px
+    margin-top:1600px;
 }
 
-.footer-background {
-    background-color: #181B1B;
-    width: 100%; 
-    height: 300px;
-    position: absolute;
-    z-index: -1;
-    margin-top:2000px
-}
 /*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
 
 .home_text3 .united {
     height:auto;
     width:500px;
-    margin-top:620px;
-    margin-left: 100px;
+    top:221%;
+    left:29%;
     position:absolute;
 
 }
@@ -336,8 +329,8 @@ video {
     font-family: "Anton", sans-serif;
     font-size: 55px;
     color: #FDF877;
-    margin-top: 625px;
-    right:120px;
+    top: 210%;
+    left:82%;
     position:absolute
 
 }
@@ -345,76 +338,96 @@ video {
     font-family: "Anton", sans-serif;
     font-size: 75px;
     color: #ffffff;
-    margin-top: 675px;
-    right:-85px;
+    top:216%;
+    left:82%;
+    width:100%;
     position:absolute
 
 }
 .home_text3 .text3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.05vw;
+    font-size: 20px;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    margin-left:640px;
-    width: 54%;
-    margin-top: 780px;
+    width: 45%;
+    top:250%;
+    left:82%;
     position:absolute;
 }
+
+
 /*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
-
-footer .logo-footer {
-
-    max-width: 80px;
-    height: auto;
-    margin-left: 80px;
-    position:absolute;
-    top: 1635px;
-}
-
-footer .contato {
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
+.nav_footer {
+    background-color: #1a1a1a;
+    left: 0;
+    bottom: -270%;
+    width: 100vw;
     position: absolute;
-    left: 900px;
-    top: 1730px;
-
+    overflow: hidden;
+    height : 300px;
+    background-size:cover;
 }
-footer .contato .footer-contato {
-    color:#ffffff;
-    font-weight: 800;
+.nav_footer .line2 {
+    width: 70%;
+    height: 1px;
+    background-color: #FDF877;
+    position: absolute;
+    left: 50%;
+    top:20%;
+    transform: translateX(-50%);
 }
-
-ul a img{
-    left:538px;
-    top:-75px;
-    position:absolute;
-}
-
-ul img.instagram{
-    position:absolute;
-    height:35px;
-    width:auto;
-}
-
-ul img.whatsapp{
-    position:absolute;
-    height:35px;
-    width:auto;
-    margin-left:90px;
-}
-
-ul.footer_menu li{
-    list-style-type: none;
+    
+.nav_footer a {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:700;
+    font-size: 15px;
+    color: #FDF877;
     text-align: center;
-    position:relative;
-    left:1000px;
-    top:1100px;
+    text-decoration: none;
+    padding: 0px 25px;
 }
-ul.footer_menu li a{
-    color:#FDF877;
-    margin-left: 20px;
+.nav_footer a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
+
+.nav_footer li {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav_footer ul.main-nav-footer {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-55%, -200%);
+    list-style-type: none;
+}
+
+.nav_footer .logo-footer img {
+    max-width: 80px;
+    float:left;
+    height: auto;
+    transform: translate(450%, 165%);
+
+}
+.nav_footer .contact-icons {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-60%, 40%);
+    list-style-type: none;
+}
+.nav_footer .contact-icons img {
+    height:35px;
+    width:auto;
+}
+.nav_footer .contact-icons a {
+    padding: 0px 7px;
 }
