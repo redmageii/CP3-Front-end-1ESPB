@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacotinho de Amor</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="media/logo-alternative-01.png" type="image/x-icon">
+    <link rel="shortcut icon" href="media/icon-01.png" type="image/x-icon">
 
 </head>
-<header>
-    <nav>        <!--ELEMENTO COM MENU DE NAVEGAÇÃO-->
-        <img class="logo" src="media/logo_purple.png" alt="logo">
-        <a href="#" class="donate_btn">doar</a></li> 
-        <a href="..\Animals for adoption\index.html" class="adopt_btn">adotar</a></li> 
-        <a href="..\Contact\Contact Page.html">contato</a></li>
-        <a href="..\About the project\index.html">sobre nós</a></li>
-        <a href="..\Home\index.html" class="active">início</a></li>    
-    </nav>
-</header>
-
 <body>
+    <nav class="navtop">        <!--ELEMENTO COM MENU DE NAVEGAÇÃO-->
+        <div class="logo-left">
+            <img class="logo" src="media/logo_purple.png" alt="logo">
+        </div>
+        <div class="top-center">
+            <ul class="main_nav">
+            <li><a href="..\Home\index.html">início</a></li>
+            <li><a href="..\About the project\index.html">sobre nós</a></li>
+            <li><a href="..\Contact\Contact Page.html">contato</a></li>    
+            </ul>
+        </div>
+        <div class="top-right">
+            <a href="#" class="donate_btn">doar</a>
+            <a href="..\Animals for adoption\index.html" class="adopt_btn">adotar</a>
+        </div>
+    </nav>
+
+    
     <!--DIVISÃO COM CORES DE FUNDO DIFERENTES-->
     <div class="new-background"></div>
-    <div class="footer-background"></div>
     <div class="line"></div>
-    <div class="line2"></div>
 
     <!--VÍDEO PERSONALIZADO INTRODUTÓRIO DA HOMEPAGE, MUTADO E COM LOOP-->
     <video autoplay muted loop> 
@@ -35,7 +40,9 @@
 
     <!--DIVISÕES DESTINADAS À N-ÉSIMA SEÇÃO DA PÁGINA INICIAL -->
     <div class="home_text">
+        <div class="imgdog">
         <img src="media/dog.png" class="dog"> 
+        </div>
         <img src="media/crosshatch-01.png" class="crosshatch">    
         <p class="welcome">SEJA BEM-VINDO, </p> 
         <p class="friend">AMIGUINHO!</p>   
@@ -59,25 +66,30 @@
     </div>
 
     <!--DIVISÃO PARA O FOOTER, INCLUINDO UM NOVO MENU DE NAVEGAÇÃO, LOGO PERSONALIZADO E INFORMAÇÕES DE CONTATO -->
-    <footer>
-        <img src="media/logo-yellow-01.png" class="logo-footer">
-    <div class="contato">
-        <ul>
-            <a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="media/instagram-01.png" class="instagram"></a>
-            <a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="media/whatsapp-01.png" class="whatsapp"></a>
-        </ul>
-    </div>
-    <ul class="footer_menu">
-        <li><a href="..\Animals for adoption\index.html">adote</a></li>
-        <li><a href="..\Contact\Contact Page.html">contato</a></li>
-        <li><a href="..\About the project\index.html">sobre nós</a></li>
-        <li><a href="..\Home\index.html">início</a></li>
-      </ul>
+    <nav class="nav_footer">
+        <div class = "line2"></div>
+        <div class="logo-footer"> 
+            <img src="media/logo-yellow-01.png" class="logo2">
+        </div> 
+        <div class="center-footer">
+            <ul class = main-nav-footer>
+                <li><a href="..\Home\index.html">início</a></li>
+                <li><a href="..\About the project\index.html">sobre nós</a></li>
+                <li><a href="..\Animals for adoption\index.html">adote</a></li>
+                <li><a href="..\Contact\Contact Page.html">contato</a></li>          
+            </ul>
+            <div class="contact-icons">
+                <ul>
+                    <li><a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="media/instagram-01.png" class="instagram"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="media/whatsapp-01.png" class="whatsapp"></a></li>
+                </ul>
+            </div>
 
-    </footer>
+        </div>
+    </nav>
     
     
-
+</div>
 </body>
 
 </html>
