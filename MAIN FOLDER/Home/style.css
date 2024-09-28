@@ -387,18 +387,18 @@ a{
     background-color: #FDF877;
     position: absolute;
     left: 50%;
-    top:20%;
+    top:50%;
     transform: translateX(-50%);
 }
     
 .nav_footer a {
     font-family: 'Comfortaa', sans-serif;
-    font-weight:700;
-    font-size: 15px;
+    font-weight:400;
+    font-size: 14px;
     color: #FDF877;
     text-align: center;
     text-decoration: none;
-    padding: 0px 25px;
+    padding: 0px 15px;
 }
 .nav_footer a:hover {
     text-decoration: underline;
@@ -407,7 +407,16 @@ a{
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
-
+.nav_footer .rights {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:300;
+    font-size: 13px;
+    color: #FDF877;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 55px;
+    margin-top:13%;
+}
 
 .nav_footer li {
     display: inline-block;
@@ -415,7 +424,7 @@ a{
 }
 .nav_footer ul.main-nav-footer {
     position:absolute;
-    top:50%;
+    top:35%;
     left:50%;
     transform: translate(-55%, -200%);
     list-style-type: none;
@@ -425,18 +434,18 @@ a{
     max-width: 80px;
     float:left;
     height: auto;
-    transform: translate(450%, 165%);
+    transform: translate(455%, 305%);
 
 }
 .nav_footer .contact-icons {
     position:absolute;
-    top:50%;
+    top:48%;
     left:50%;
     transform: translate(-60%, 40%);
     list-style-type: none;
 }
 .nav_footer .contact-icons img {
-    height:35px;
+    height:30px;
     width:auto;
 }
 .nav_footer .contact-icons a {
