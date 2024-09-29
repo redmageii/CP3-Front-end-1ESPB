@@ -4,19 +4,11 @@
 body{ 
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
-    height: 1570px;
+   /* background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%); */
+   /* height: 1527px; */
     overflow-x:hidden;
+    background-color: #FDF877;
 }
-.golden-logo {
-    position: absolute;
-    top: 160px;
-    left: 230px;
-    width: 150px;
-    height: auto;
-}
-
-
 /*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
 .navtop {
     background-image: url('media/nav_bg-01.png');
@@ -24,6 +16,7 @@ body{
     overflow: hidden;
     position: relative;
     padding: 10px 0;
+    width:100%;
     
 }
 
@@ -129,7 +122,7 @@ a.adopt_btn:hover {
 
 /*AJUSTES POSICIONAIS DO VÍDEO DA PÁGINA INTRODUTÓRIA*/
 video {
-    width: 1920px;
+    width: 100%;
     display: block;
     /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
     position: static;
@@ -186,6 +179,16 @@ a{
     padding: 10px 305px;
     position:absolute;
 }
+.home_text_bg{
+    width: 100vw;
+    height: 113.9%;
+    background-color: #5F377B;
+    position: absolute;
+    margin-top:-10px;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
 .text1, .welcome, .friend, .dog, .crosshatch{
     left:35vw;
 }
@@ -231,6 +234,7 @@ a{
     margin-left:450px;
     margin-top:100px;
     position:absolute;
+    
 }
 
 
@@ -238,18 +242,17 @@ a{
     height:auto;
     width:100px;
     margin-left: 900px;
-    margin-top:430px;
+    margin-top:442px;
     position:absolute;
 }
-/*LINHAS PARA DIVISÃO VISUAL*/
+/*LINHA PARA DIVISÃO VISUAL*/
 .line {
-    width: 80%;
+    width: 75vw;
     height: 3px;
     background-color: #FDF877;
     position: absolute;
-    z-index: 995;
-    top: 625px;
-    left: 50%;
+    margin-top:40px;
+    left: 50vw;
     transform: translateX(-50%);
 }
 
@@ -328,12 +331,15 @@ a{
 /* NOVA SEÇÃO DE BACKGROUND */
 .new-background {
     background-color: #5F377B;
-    width: 100%; 
+    width: 100vw; 
+    top:208.2%;
+    z-index:-1;        
     height: 500px;
     position: absolute;
-    z-index: -1;
-    margin-top:1600px;
+    left: 50vw;
+    transform: translateX(-50%);
 }
+
 
 /*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
 
