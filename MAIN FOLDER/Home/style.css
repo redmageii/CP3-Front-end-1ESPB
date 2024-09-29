@@ -72,8 +72,10 @@ body{
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
+.donate_btn, .adopt_btn {
+    margin-top:-19px;
+}
 /*BORDA CENTRALIZADA AOS BOTÕES*/
-
 a.donate_btn {
     border-radius: 100px;	
     background-color: #FDF877;
