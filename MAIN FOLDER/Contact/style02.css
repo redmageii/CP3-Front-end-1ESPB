@@ -114,11 +114,13 @@ a.adopt_btn:hover {
     left: 0;
     bottom: 0;
     width: 100vw;
-    position: absolute;
+    position: relative;
     overflow: hidden;
     height : 300px;
     background-size:cover;
+    margin-top:200px;
 }
+ 
 .nav_footer .line2 {
     width: 70%;
     height: 1px;
