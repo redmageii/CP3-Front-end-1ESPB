@@ -4,10 +4,7 @@
 body{ 
     margin: 0;
     padding: 0;
-   /* background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%); */
-   /* height: 1527px; */
     overflow-x:hidden;
-    background-color: #FDF877;
 }
 /*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
 .navtop {
@@ -181,7 +178,7 @@ a{
 }
 .home_text_bg{
     width: 100vw;
-    height: 113.9%;
+    height: 114%;
     background-color: #5F377B;
     position: absolute;
     margin-top:-10px;
@@ -260,6 +257,16 @@ a{
 .home_text2 {
     position: relative;
 }
+.home_text2_bg {
+    background-color: #FDF877;
+    width: 200vw; 
+    z-index:-1;        
+    height: 600px;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
 .cat, .alimente, .esperança, .text2, .about {
     left:35vw;
 }
@@ -287,6 +294,7 @@ a{
     color: #000000;
     margin-top: 120px;
     position:absolute;
+    margin-left:3px;
 }
 .home_text2 p.esperança {
     font-family: "Anton", sans-serif;
