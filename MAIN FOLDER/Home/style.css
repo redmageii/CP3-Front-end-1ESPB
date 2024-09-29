@@ -4,8 +4,6 @@
 body{ 
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
-    height: 1570px;
     overflow-x:hidden;
 }
 /*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
@@ -15,6 +13,7 @@ body{
     overflow: hidden;
     position: relative;
     padding: 10px 0;
+    width:100%;
     
 }
 
@@ -63,8 +62,10 @@ body{
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
+.donate_btn, .adopt_btn {
+    margin-top:-19px;
+}
 /*BORDA CENTRALIZADA AOS BOTÕES*/
-
 a.donate_btn {
     border-radius: 100px;	
     background-color: #FDF877;
@@ -118,7 +119,7 @@ a.adopt_btn:hover {
 
 /*AJUSTES POSICIONAIS DO VÍDEO DA PÁGINA INTRODUTÓRIA*/
 video {
-    width: 1920px;
+    width: 100%;
     display: block;
     /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
     position: static;
@@ -175,6 +176,16 @@ a{
     padding: 10px 305px;
     position:absolute;
 }
+.home_text_bg{
+    width: 100vw;
+    height: 114%;
+    background-color: #5F377B;
+    position: absolute;
+    margin-top:-10px;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
 .text1, .welcome, .friend, .dog, .crosshatch{
     left:35vw;
 }
@@ -220,6 +231,7 @@ a{
     margin-left:450px;
     margin-top:100px;
     position:absolute;
+    
 }
 
 
@@ -227,18 +239,17 @@ a{
     height:auto;
     width:100px;
     margin-left: 900px;
-    margin-top:430px;
+    margin-top:442px;
     position:absolute;
 }
-/*LINHAS PARA DIVISÃO VISUAL*/
+/*LINHA PARA DIVISÃO VISUAL*/
 .line {
-    width: 80%;
+    width: 75vw;
     height: 3px;
     background-color: #FDF877;
     position: absolute;
-    z-index: 995;
-    top: 625px;
-    left: 50%;
+    margin-top:40px;
+    left: 50vw;
     transform: translateX(-50%);
 }
 
@@ -246,6 +257,16 @@ a{
 .home_text2 {
     position: relative;
 }
+.home_text2_bg {
+    background-color: #FDF877;
+    width: 200vw; 
+    z-index:-1;        
+    height: 600px;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
 .cat, .alimente, .esperança, .text2, .about {
     left:35vw;
 }
@@ -273,6 +294,7 @@ a{
     color: #000000;
     margin-top: 120px;
     position:absolute;
+    margin-left:3px;
 }
 .home_text2 p.esperança {
     font-family: "Anton", sans-serif;
@@ -317,12 +339,15 @@ a{
 /* NOVA SEÇÃO DE BACKGROUND */
 .new-background {
     background-color: #5F377B;
-    width: 100%; 
+    width: 100vw; 
+    top:208.2%;
+    z-index:-1;        
     height: 500px;
     position: absolute;
-    z-index: -1;
-    margin-top:1600px;
+    left: 50vw;
+    transform: translateX(-50%);
 }
+
 
 /*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
 
@@ -414,8 +439,7 @@ a{
     color: #FDF877;
     text-align: center;
     text-decoration: none;
-    padding: 0px 55px;
-    margin-top:13%;
+    padding: 240px 55px;
 }
 
 .nav_footer li {
