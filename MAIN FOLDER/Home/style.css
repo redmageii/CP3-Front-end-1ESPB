@@ -362,7 +362,7 @@ a{
 .home_text3 .united {
     height:auto;
     width:500px;
-    top:221%;
+    top:220%;
     margin-left:-600px;
     position:absolute;
 
@@ -370,31 +370,31 @@ a{
 
 .home_text3 .juntos {
     font-family: "Anton", sans-serif;
-    font-size: 55px;
+    font-size: 67px;
     color: #FDF877;
-    top: 210%;
+    top: 204%;
     position:absolute
 
 }
 .home_text3 .somos {
     font-family: "Anton", sans-serif;
-    font-size: 75px;
+    font-size: 93px;
     color: #ffffff;
-    top:216%;
+    top:210%;
     width:100%;
     position:absolute
 
 }
 .home_text3 .text3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    width: 75%;
-    top:250%;
+    width: 65%;
+    top:252%;
     position:absolute;
 }
 
