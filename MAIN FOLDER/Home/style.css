@@ -1,152 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ESTILO DO BODY E HTML */
-body, html { 
+body{ 
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #5F377B 0%, #5F377B 70%, #FDF877 70%, #FDF877 100%);
-    z-index: -1;
-    height: 1685px;
     overflow-x:hidden;
+}
+/*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
+.navtop {
+    background-image: url('media/nav_bg-01.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+    width:100%;
+    
 }
 
 /* PARÂMETROS DE AJUSTE PARA A POSIÇÃO DO LOGO NO MENU DE NAVEGAÇÃO */
-img.logo { 
-    max-width: 140px;
+.navtop .logo-left img { 
+    max-width: 110px;
+    float:left;
     height: auto;
-    margin-left: 380px;
+    transform: translate(290%, 0%);
 }
 
-nav {
-    background-image: url('media/navmenu-background.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-y: -200px;
-    padding: 20px 0px;
-    overflow: hidden;
-    z-index: 999;
-    height:100px;
-}
-
-video {
-    width: 1920px;
-    display: block;
-    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
-    position: static;
-    z-index: -2;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.love_btn{
-    position:absolute;
-    padding: 75px 340px;
-}
-
-.love_btn .amor {
-    position: absolute;
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #000000;
-    border-radius: 100px;
-    outline:2px solid;	
-    color: #ffffff;
-    z-index: 999;
-    
-    /*AJUSTES PARA A BORDA DO BOTÃO */
-    width:100px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -180%;
-    left: 190%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-a:not(.donate_btn, .adopt_btn) {
+.navtop a{
     font-family: 'Comfortaa', sans-serif;
     font-weight:700;
     font-size: 15px;
     color: #000000;
-    float: right;
-    padding: 0px 15px;
-    margin-top: 45px;
-    margin-right: 5px;
+    text-align: center;
     text-decoration: none;
-    position: relative;
-    right: 605px;
-    top:4px;
+    padding: 0px 13px;
+
 }
 
-a:not(.donate_btn, .adopt_btn, .amor):hover {
+.navtop .top-center ul.main_nav{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -130%);
+    list-style-type: none;
+}
+.navtop .main_nav li {
+    display: inline-block;
+}
+
+.navtop .top-right a {
+    float:right;
+    top:50%;
+    left:50%;
+    transform: translate(-280%, 55%);
+}
+
+/*EFEITOS DE TRANSIÇÃO NA BARRA DE NAVEGAÇÃO*/
+.navtop a:not(.donate_btn, .adopt_btn, .amor):hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #5F377B;
+    text-decoration-color: #764599;
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
-
-.love_btn .amor:hover {
-    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
-    border-radius: 100px;
-    background-color: #ffffff;
-    color:#5F377B;
-    text-decoration:underline;
-    text-decoration-color: #5F377B;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 3px;
+.donate_btn, .adopt_btn {
+    margin-top:-19px;
 }
-
-a.donate_btn, a.adopt_btn {
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
-    color: #000000;
-    float: right;
-    padding: 0px 5px;
-    margin-top: 45px;
-    margin-right: 50px;
-    text-decoration: none;
-    position: relative;
-    right: 495px;
-}
-
 /*BORDA CENTRALIZADA AOS BOTÕES*/
-
 a.donate_btn {
     border-radius: 100px;	
     background-color: #FDF877;
     color: #000000;
     margin-right: 5px;
-    width:80px;
+    width:70px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom:8px;
-    right:390px;
 }
 a.adopt_btn {
     border-radius: 100px;	
     background-color: #5F377B;
     color: #ffffff;
     margin-right: 5px;
-    width:80px;
+    width:70px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom:8px;
-    right:390px;
 }
 
-/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE */
+/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE NOS BOTÕES DE DOAÇÃO E ADOÇÃO */
 
 a.donate_btn:hover {
     transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
@@ -174,102 +117,361 @@ a.adopt_btn:hover {
 
 
 
+/*AJUSTES POSICIONAIS DO VÍDEO DA PÁGINA INTRODUTÓRIA*/
+video {
+    width: 100%;
+    display: block;
+    /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
+    position: static;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+/*PARÂMETROS DE ESTILO PARA O BOTÃO SOBREPOSTO NO VÍDEO*/
+.love_btn{
+    position:absolute;
+    left:80%;
+    top:340px;
+}
+a{
+    text-decoration: none;
+}
+.love_btn .amor {
+    position: absolute;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 100px;
+    outline:2px solid;	
+    color: #ffffff;
+    z-index: 999;
+    
+    /*AJUSTES PARA A BORDA DO BOTÃO */
+    width:100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -180%;
+    left: 190%;
+    transform: translate(-50%, -50%);
+}
+
+
+.love_btn .amor:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color:#5F377B;
+    text-decoration:underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
 /*PARÂMETROS DE AJUSTE PARA A DIVISÃO HOME_TEXT*/
 
 .home_text {
+    padding: 10px 305px;
     position:absolute;
-    padding: 10px 270px;
+}
+.home_text_bg{
+    width: 100vw;
+    height: 114%;
+    background-color: #5F377B;
+    position: absolute;
+    margin-top:-10px;
+    left: 50vw;
+    transform: translateX(-50%);
 }
 
+.text1, .welcome, .friend, .dog, .crosshatch{
+    left:35vw;
+}
 .home_text p.text1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1vw;
+    font-size: 20px;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    margin-left:0;
-    width: 54%;
-    margin-top: -180px;
+    margin-left:-300px;
+    width: 78%;
+    margin-top: -150px;
     position:absolute;
 }
 
 .home_text p.welcome {
     font-family: "Anton", sans-serif;
-    font-size: 75px;
+    font-size: 60px;
     color: #ffffff;
-    margin-left:10px;
+    margin-left:-595px;
+    margin-top: 80px; 
+    position:relative;
+    
 }
 
 .home_text p.friend {
     font-family: "Anton", sans-serif;
-    font-size: 148px;
+    font-size: 128px;
     color: #FDF877;
-    margin-top: -134px; 
+    margin-top: -109px;
+    margin-left:-605px;
+    position:relative;
 }
+
 
 .home_text img.dog {
     height:auto;
-    width:400px;
-    margin-left: 850px;
+    float:right;
+    width:52%;
+    min-width:250px;
+    margin-left:450px;
     margin-top:100px;
     position:absolute;
+    
 }
+
 
 .home_text img.crosshatch {
     height:auto;
     width:100px;
-    margin-left: 1360px;
-    margin-top:469px;
+    margin-left: 900px;
+    margin-top:442px;
     position:absolute;
 }
-
+/*LINHA PARA DIVISÃO VISUAL*/
 .line {
-    width: 71%;
+    width: 75vw;
     height: 3px;
     background-color: #FDF877;
     position: absolute;
-    z-index: 995;
-    top: 661px;
-    left: 50%;
+    margin-top:40px;
+    left: 50vw;
     transform: translateX(-50%);
 }
 
 /*PARÂMETROS PARA A SEGUNDA SEÇÃO DA PÁGINA*/
+.home_text2 {
+    position: relative;
+}
+.home_text2_bg {
+    background-color: #FDF877;
+    width: 200vw; 
+    z-index:-1;        
+    height: 600px;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.cat, .alimente, .esperança, .text2, .about {
+    left:35vw;
+}
+
+
 .home_text2 img.cat {
     height:auto;
-    width:400px;
-    margin-left: 95px;
-    margin-top:120px;
+    width:470%;
+    margin-top:150px;
+    margin-left:-600px;
     position:absolute;
 }
+.home_text2 img.cross {
+    position:absolute;
+    height:auto;
+    width:90px;
+    margin-top:505px;
+    margin-left:-150px;
+
+ }   
+
 .home_text2 p.alimente {
     font-family: "Anton", sans-serif;
     font-size: 55px;
     color: #000000;
-    margin-left:753px;
     margin-top: 120px;
     position:absolute;
+    margin-left:3px;
 }
 .home_text2 p.esperança {
     font-family: "Anton", sans-serif;
     font-size: 100px;
     color: #5F377B;
-    margin-left:750px;
     margin-top: 155px;
     position:absolute;
 }
 .home_text2 p.text2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1vw;
+    font-size: 20px;
     font-weight:400;
     color: #000000;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    margin-left:640px;
-    width: 54%;
-    margin-top: 320px;
+    width: 550%;
+    margin-top: 305px;
     position:absolute;
+}
+
+.about_btn .about{
+
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #5F377B;
+    padding: 0px 5px;
+    text-decoration: none;
+    position: relative;
+    top:455px;
+}
+
+.about_btn .about:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #764599;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
+/* NOVA SEÇÃO DE BACKGROUND */
+.new-background {
+    background-color: #5F377B;
+    width: 100vw; 
+    top:208.2%;
+    z-index:-1;        
+    height: 500px;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+
+/*AJUSTES PARA A TERCEIRA SEÇÃO DA PÁGINA*/
+
+.home_text3, .united, .juntos, .somos, .text3 {
+    left:50vw;
+}
+
+.home_text3 .united {
+    height:auto;
+    width:500px;
+    top:221%;
+    margin-left:-600px;
+    position:absolute;
+
+}
+
+.home_text3 .juntos {
+    font-family: "Anton", sans-serif;
+    font-size: 55px;
+    color: #FDF877;
+    top: 210%;
+    position:absolute
+
+}
+.home_text3 .somos {
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    top:216%;
+    width:100%;
+    position:absolute
+
+}
+.home_text3 .text3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    color: #ffffff;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    width: 75%;
+    top:250%;
+    position:absolute;
+}
+
+
+/*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
+.nav_footer {
+    background-color: #1a1a1a;
+    left: 0;
+    bottom: -270%;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+    height : 300px;
+    background-size:cover;
+}
+.nav_footer .line2 {
+    width: 70%;
+    height: 1px;
+    background-color: #FDF877;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%);
+}
+    
+.nav_footer a {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+    color: #FDF877;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+.nav_footer a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+.nav_footer .rights {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:300;
+    font-size: 13px;
+    color: #FDF877;
+    text-align: center;
+    text-decoration: none;
+    padding: 240px 55px;
+}
+
+.nav_footer li {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav_footer ul.main-nav-footer {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-55%, -200%);
+    list-style-type: none;
+}
+
+.nav_footer .logo-footer img {
+    max-width: 80px;
+    float:left;
+    height: auto;
+    transform: translate(455%, 305%);
+
+}
+.nav_footer .contact-icons {
+    position:absolute;
+    top:48%;
+    left:50%;
+    transform: translate(-60%, 40%);
+    list-style-type: none;
+}
+.nav_footer .contact-icons img {
+    height:30px;
+    width:auto;
+}
+.nav_footer .contact-icons a {
+    padding: 0px 7px;
 }
