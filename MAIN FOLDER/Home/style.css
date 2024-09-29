@@ -8,6 +8,15 @@ body{
     height: 1570px;
     overflow-x:hidden;
 }
+.golden-logo {
+    position: absolute;
+    top: 400px;
+    left: 460px;
+    width: 140px;
+    height: auto;
+}
+
+
 /*DIVISÃO DO MENU DE NAVEGAÇÃO PRINCIPAL*/
 .navtop {
     background-image: url('media/nav_bg-01.png');
