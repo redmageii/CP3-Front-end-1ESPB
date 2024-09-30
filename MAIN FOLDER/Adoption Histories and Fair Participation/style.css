@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1{
-    color: #5f377b;
-}
-h2{
-    color: #5f377b;
-}
-body{
-    background-color:#e0d7ec;
+body {
     margin:0;
     padding:0;
     overflow-x:hidden;
 }
-
 .navtop {
     background-image: url('media/nav_bg-01.png');
     background-size: cover;
@@ -117,6 +109,7 @@ a.adopt_btn:hover {
     text-underline-offset: 5px;
     text-decoration-thickness: 3px;
 }
+
 
 /*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
 .nav_footer {
