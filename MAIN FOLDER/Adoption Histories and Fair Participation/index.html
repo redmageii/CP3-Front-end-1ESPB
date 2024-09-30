@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histórias de Adoção - Projeto Pacotinho de Amor</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- adicionando o cabeçalho -->
-    <header>
-        <nav>
-            <a href="../Home/index.html" class="active">Início</a></li>
-            <a href="#" class="donate_btn">Doar</a></li>
-            <a href="../Animals for adoption/index.html for adoption\index.html" class="adopt_btn">Adotar</a></li>
-            <a href="../Contact/index.html">Contato</a></li>
-            <a href="../About the project/index.html">Sobre Nós</a></li>
-        </nav>
-    </header>
+    <nav class="navtop">        <!--ELEMENTO COM MENU DE NAVEGAÇÃO-->
+        <div class="logo-left">
+            <img class="logo" src="media/logo_purple.png" alt="logo">
+        </div>
+        <div class="top-center">
+            <ul class="main_nav">
+            <li><a href="..\Home\index.html" class="active">início</a></li>
+            <li><a href="..\About the project\index.html">sobre nós</a></li>
+            <li><a href="..\Contact\Contact Page.html">contato</a></li>    
+            </ul>
+        </div>
+        <div class="top-right">
+            <a href="#" class="donate_btn">doar</a>
+            <a href="..\Animals for adoption\index.html" class="adopt_btn">adotar</a>
+        </div>
+    </nav>
+
     <!--Criando uma section com as histórias de adoção-->
     <section class="historias">
         <h1>Histórias de Adoção</h1>
@@ -95,13 +104,27 @@
       <p>Participe das nossas feirinhas de adoção e ajude a encontrar um lar para muitos animais carentes! Toda ajuda é bem-vinda, seja adotando ou divulgando.</p>
     </section>
     <!-- adicionando o rodapé -->
-    <footer>
-        <nav>
-            <a href="..\Animals for adoption\index.html">adote</a>
-            <a href="..\Contact\Contact Page.html">contato</a>
-            <a href="..\About the project\index.html">sobre nós</a>
-            <a href="..\Home\index.html">início</a>
-        </nav>
-    </footer>
+    <nav class="nav_footer">
+        <div class = "line2"></div>
+        <div class="logo-footer"> 
+            <img src="media/logo-yellow-01.png" class="logo2">
+        </div> 
+        <div class="center-footer">
+            <ul class = main-nav-footer>
+                <li><a href="..\Home\index.html">início</a></li>
+                <li><a href="..\About the project\index.html">sobre nós</a></li>
+                <li><a href="..\Animals for adoption\index.html">adote</a></li>
+                <li><a href="..\Contact\Contact Page.html">contato</a></li>          
+            </ul>
+            <div class="rights"><p>©2024 Projeto Pacotinho de Amor. Todos os direitos reservados.</p></div>
+            <div class="contact-icons">
+                <ul>
+                    <li><a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="media/instagram-01.png" class="instagram"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="media/whatsapp-01.png" class="whatsapp"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
 </body>
 </html>
