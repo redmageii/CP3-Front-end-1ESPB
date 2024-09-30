@@ -14,6 +14,7 @@ body{
     position: relative;
     padding: 10px 0;
     width:100%;
+    z-index:999;
     
 }
 
@@ -119,7 +120,7 @@ a.adopt_btn:hover {
 
 /*AJUSTES POSICIONAIS DO VÍDEO DA PÁGINA INTRODUTÓRIA*/
 video {
-    width: 100%;
+    width: 100vw;
     display: block;
     /*POSIÇÃO STATIC PARA EVITAR REDIMENSIONAMENTO NA JANELA*/
     position: static;
@@ -128,16 +129,16 @@ video {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 /*PARÂMETROS DE ESTILO PARA O BOTÃO SOBREPOSTO NO VÍDEO*/
-.love_btn{
-    position:absolute;
-    left:80%;
-    top:340px;
+.love_btn {
+    position: absolute;
+    left: 79%;
+    margin-top:-230px;
 }
+
 a{
     text-decoration: none;
 }
-.love_btn .amor {
-    position: absolute;
+.love_btn a.amor {
     font-family: 'Comfortaa', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -148,8 +149,8 @@ a{
     z-index: 999;
     
     /*AJUSTES PARA A BORDA DO BOTÃO */
-    width:100px;
-    height: 50px;
+    margin-left:20px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,7 +179,7 @@ a{
 }
 .home_text_bg{
     width: 100vw;
-    height: 114%;
+    height: 118.5%;
     background-color: #5F377B;
     position: absolute;
     margin-top:-10px;
@@ -186,19 +187,19 @@ a{
     transform: translateX(-50%);
 }
 
-.text1, .welcome, .friend, .dog, .crosshatch{
-    left:35vw;
+.text1, .welcome, .friend, .dog, .crosshatch, .stories, .process{
+    left:50vw;
 }
 .home_text p.text1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    margin-left:-300px;
-    width: 78%;
+    margin-left:-600px;
+    width: 91%;
     margin-top: -150px;
     position:absolute;
 }
@@ -207,7 +208,7 @@ a{
     font-family: "Anton", sans-serif;
     font-size: 60px;
     color: #ffffff;
-    margin-left:-595px;
+    margin-left:-895px;
     margin-top: 80px; 
     position:relative;
     
@@ -218,7 +219,7 @@ a{
     font-size: 128px;
     color: #FDF877;
     margin-top: -109px;
-    margin-left:-605px;
+    margin-left:-905px;
     position:relative;
 }
 
@@ -226,9 +227,9 @@ a{
 .home_text img.dog {
     height:auto;
     float:right;
-    width:52%;
+    width:61.4%;
     min-width:250px;
-    margin-left:450px;
+    margin-left:150px;
     margin-top:100px;
     position:absolute;
     
@@ -238,10 +239,35 @@ a{
 .home_text img.crosshatch {
     height:auto;
     width:100px;
-    margin-left: 900px;
-    margin-top:442px;
+    margin-left: 600px;
+    margin-top:443px;
     position:absolute;
 }
+
+.stories_btn .stories{
+
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FDF877;
+    padding: 0px 5px;
+    text-decoration: none;
+    position: absolute;
+    top:480px;
+    margin-left:-605px;
+    width:46%;
+    
+}
+
+.stories_btn .stories:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
+
 /*LINHA PARA DIVISÃO VISUAL*/
 .line {
     width: 75vw;
@@ -263,27 +289,26 @@ a{
     z-index:-1;        
     height: 600px;
     position: absolute;
-    left: 50vw;
     transform: translateX(-50%);
 }
 
 .cat, .alimente, .esperança, .text2, .about {
-    left:35vw;
+    left:50vw;
 }
 
 
 .home_text2 img.cat {
     height:auto;
-    width:470%;
+    width:440px;
     margin-top:150px;
-    margin-left:-600px;
+    margin-left:-910px;
     position:absolute;
 }
 .home_text2 img.cross {
     position:absolute;
     height:auto;
     width:90px;
-    margin-top:505px;
+    margin-top:506px;
     margin-left:-150px;
 
  }   
@@ -294,7 +319,7 @@ a{
     color: #000000;
     margin-top: 120px;
     position:absolute;
-    margin-left:3px;
+    margin-left:-297px;
 }
 .home_text2 p.esperança {
     font-family: "Anton", sans-serif;
@@ -302,47 +327,52 @@ a{
     color: #5F377B;
     margin-top: 155px;
     position:absolute;
+    margin-left:-300px;
 }
 .home_text2 p.text2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight:400;
     color: #000000;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    width: 550%;
+    width: 450px;
     margin-top: 305px;
+    margin-left:-300px;
     position:absolute;
 }
 
-.about_btn .about{
+.process_btn .process{
 
     font-family: 'Comfortaa', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 15px;
     color: #5F377B;
     padding: 0px 5px;
     text-decoration: none;
-    position: relative;
-    top:455px;
+    position: absolute;
+    top:885px;
+    width:30%;
+    
 }
 
-.about_btn .about:hover {
+.process_btn .process:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #764599;
+    text-decoration-color: #5F377B;
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
+
 
 /* NOVA SEÇÃO DE BACKGROUND */
 .new-background {
     background-color: #5F377B;
     width: 100vw; 
-    top:208.2%;
+    top:216.5%;
     z-index:-1;        
-    height: 500px;
+    height: 600px;
     position: absolute;
     left: 50vw;
     transform: translateX(-50%);
@@ -358,7 +388,7 @@ a{
 .home_text3 .united {
     height:auto;
     width:500px;
-    top:221%;
+    top:228%;
     margin-left:-600px;
     position:absolute;
 
@@ -366,40 +396,39 @@ a{
 
 .home_text3 .juntos {
     font-family: "Anton", sans-serif;
-    font-size: 55px;
+    font-size: 67px;
     color: #FDF877;
-    top: 210%;
+    top: 214%;
     position:absolute
 
 }
 .home_text3 .somos {
     font-family: "Anton", sans-serif;
-    font-size: 75px;
+    font-size: 93px;
     color: #ffffff;
-    top:216%;
+    top:220%;
     width:100%;
     position:absolute
 
 }
 .home_text3 .text3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight:300;
     color: #ffffff;
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    width: 75%;
-    top:250%;
+    width: 80%;
+    top:264%;
     position:absolute;
 }
-
 
 /*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
 .nav_footer {
     background-color: #1a1a1a;
     left: 0;
-    bottom: -270%;
+    bottom: -285%;
     width: 100vw;
     position: absolute;
     overflow: hidden;
