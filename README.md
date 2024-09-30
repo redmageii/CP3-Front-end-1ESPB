@@ -22,7 +22,7 @@ O projeto consiste no desenvolvimento de um site com foco em **adoção de anima
 - **CSS3:** Para estilização e responsividade.
 - **Git e GitHub:** Para controle de versão e gerenciamento colaborativo do código.
 - **Adobe Illustrator:** Para a elaboração de elementos gráficos pertinentes ao projeto. 
-- **Adobe Premiere Pro:** Para edição de vídeo.
+-**Adobe Premiere Pro:** Para edição de vídeo.
 
 ## Participantes e Responsabilidades
 
