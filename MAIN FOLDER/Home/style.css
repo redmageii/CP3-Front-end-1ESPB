@@ -179,7 +179,7 @@ a{
 }
 .home_text_bg{
     width: 100vw;
-    height: 118.5%;
+    height: 114%;
     background-color: #5F377B;
     position: absolute;
     margin-top:-10px;
@@ -187,7 +187,7 @@ a{
     transform: translateX(-50%);
 }
 
-.text1, .welcome, .friend, .dog, .crosshatch, .stories, .process{
+.text1, .welcome, .friend, .dog, .crosshatch{
     left:50vw;
 }
 .home_text p.text1 {
@@ -199,7 +199,7 @@ a{
     text-align: justify;
     text-align-last: left;
     margin-left:-600px;
-    width: 91%;
+    width: 75.5%;
     margin-top: -150px;
     position:absolute;
 }
@@ -227,7 +227,7 @@ a{
 .home_text img.dog {
     height:auto;
     float:right;
-    width:61.4%;
+    width:51%;
     min-width:250px;
     margin-left:150px;
     margin-top:100px;
@@ -243,31 +243,6 @@ a{
     margin-top:443px;
     position:absolute;
 }
-
-.stories_btn .stories{
-
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #FDF877;
-    padding: 0px 5px;
-    text-decoration: none;
-    position: absolute;
-    top:480px;
-    margin-left:-605px;
-    width:46%;
-    
-}
-
-.stories_btn .stories:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #FDF877;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 4px;
-}
-
-
 /*LINHA PARA DIVISÃO VISUAL*/
 .line {
     width: 75vw;
@@ -299,9 +274,9 @@ a{
 
 .home_text2 img.cat {
     height:auto;
-    width:440px;
+    width:350%;
     margin-top:150px;
-    margin-left:-910px;
+    margin-left:-900px;
     position:absolute;
 }
 .home_text2 img.cross {
@@ -337,42 +312,41 @@ a{
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    width: 450px;
+    width: 335%;
     margin-top: 305px;
     margin-left:-300px;
     position:absolute;
 }
 
-.process_btn .process{
+.about_btn .about{
 
     font-family: 'Comfortaa', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 15px;
     color: #5F377B;
     padding: 0px 5px;
     text-decoration: none;
-    position: absolute;
-    top:885px;
-    width:30%;
+    position: relative;
+    top:455px;
+    margin-left:30px;
     
 }
 
-.process_btn .process:hover {
+.about_btn .about:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #5F377B;
+    text-decoration-color: #764599;
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
-
 
 /* NOVA SEÇÃO DE BACKGROUND */
 .new-background {
     background-color: #5F377B;
     width: 100vw; 
-    top:216.5%;
+    top:208.2%;
     z-index:-1;        
-    height: 600px;
+    height: 500px;
     position: absolute;
     left: 50vw;
     transform: translateX(-50%);
@@ -388,7 +362,7 @@ a{
 .home_text3 .united {
     height:auto;
     width:500px;
-    top:228%;
+    top:220%;
     margin-left:-600px;
     position:absolute;
 
@@ -398,7 +372,7 @@ a{
     font-family: "Anton", sans-serif;
     font-size: 67px;
     color: #FDF877;
-    top: 214%;
+    top: 204%;
     position:absolute
 
 }
@@ -406,7 +380,7 @@ a{
     font-family: "Anton", sans-serif;
     font-size: 93px;
     color: #ffffff;
-    top:220%;
+    top:210%;
     width:100%;
     position:absolute
 
@@ -419,16 +393,17 @@ a{
     /*AJUSTE DE MARGEM PARA O TEXTO*/
     text-align: justify;
     text-align-last: left;
-    width: 80%;
-    top:264%;
+    width: 65%;
+    top:252%;
     position:absolute;
 }
+
 
 /*AJUSTES PARA O FOOTER, JUNTO COM A LISTA DE NAVEGAÇÃO*/
 .nav_footer {
     background-color: #1a1a1a;
     left: 0;
-    bottom: -285%;
+    bottom: -270%;
     width: 100vw;
     position: absolute;
     overflow: hidden;
