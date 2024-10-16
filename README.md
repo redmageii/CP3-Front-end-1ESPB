@@ -12,6 +12,8 @@ O projeto consiste no desenvolvimento de um site com foco em **adoção de anima
 
 - **Formulários Funcionais:** A página de contato possui um formulário com campos validados via atributos HTML (`required`, `pattern`) para garantir a consistência dos dados antes de serem enviados. O layout dos inputs foi estilizado para ser visualmente claro e intuitivo.
 
+- **Interatividade com JavaScript:** O JavaScript foi integrado ao projeto para adicionar interatividade e funcionalidades dinâmicas, melhorando a experiência do usuário. As principais implementações incluem: Protótipo Interativo no Figma; Guias interativos com menus dropdown e conteúdo dinâmico; Eventos de clique para exibir detalhes dos animais de forma interativa; Lógica de validação de campos e feedback ao usuário; Interações para exibir detalhes adicionais ao clicar nas histórias e eventos.
+
 - **Boas Práticas de Versionamento:** Cada integrante segue um padrão de commits utilizando prefixos como `feat` para novas funcionalidades, `fix` para correções, e `chore` para ajustes e melhorias não funcionais, facilitando a rastreabilidade das mudanças. Todas as atualizações são feitas por meio de *Pull Requests*, mantendo a `main` protegida de commits diretos.
 
 - **Organização de Código e Comentários:** O HTML e o CSS de cada página estão organizados em seções bem definidas, com comentários explicativos indicando a funcionalidade de blocos específicos. Isso facilita a colaboração e futuras manutenções.
@@ -20,16 +22,17 @@ O projeto consiste no desenvolvimento de um site com foco em **adoção de anima
 
 - **HTML5:** Para estruturação e marcação semântica das páginas.
 - **CSS3:** Para estilização e responsividade.
+- **JavaScript:** Para adicionar interatividade e funcionalidades dinâmicas.
 - **Git e GitHub:** Para controle de versão e gerenciamento colaborativo do código.
 
 ## Participantes e Responsabilidades
 
-1. **Filip Arnhold** - Desenvolvimento da *Home* (página inicial): Header com navegação, resumo do projeto e footer informativo.
-2. **Davi Correa** - Página "Sobre o Projeto": História do projeto, fundadores e como o processo de resgate e adoção é conduzido.
-3. **Marcos Azuma** - Página de "Animais para Adoção": Galeria com fotos, descrições e detalhes dos animais disponíveis.
-4. **Matheus Ricardo** - Página de Contato: Implementação de formulário funcional e links diretos para redes sociais.
-5. **Marcos Vinicius** - Seção "Processo de Adoção e Guia para Novos Adotantes": Passo a passo do processo e orientações para novos adotantes.
-6. **Witalon Antonio** - Página de "Histórias de Adoção e Participação em Feirinhas": Relatos e eventos futuros de adoção.
+1. **Filip Arnhold** - Desenvolvimento da *Home* (página inicial): Header com navegação, resumo do projeto e footer informativo. Protótipo no Figma. 
+2. **Davi Correa** - Página "Sobre o Projeto": História do projeto, fundadores e como o processo de resgate e adoção é conduzido. Página “Adotei e Agora?”.
+3. **Marcos Azuma** - Página de "Animais para Adoção": Galeria com fotos, descrições e detalhes dos animais disponíveis.  Página de Adoção com Interatividade.
+4. **Matheus Ricardo** - Página de Contato: Implementação de formulário funcional e links diretos para redes sociais. Lógica de Validação de Formulário.
+5. **Marcos Vinicius** - Seção "Processo de Adoção e Guia para Novos Adotantes": Passo a passo do processo e orientações para novos adotantes. Histórias de Adoção e Participação em Eventos.
+6. **Witalon Antonio** - Página de "Histórias de Adoção e Participação em Feirinhas": Relatos e eventos futuros de adoção.  Formulário na Página de Contato.
 
 ## Objetivos Gerais
 
