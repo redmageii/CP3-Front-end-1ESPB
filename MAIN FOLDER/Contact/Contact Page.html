@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacotinho do Amor|Contato</title>
+    <title>Pacotinho de Amor|Contato</title>
     <link rel="stylesheet" href="style02.css">
+    <script src="./Contact.js" defer></script>
 </head>
 <body>
     <nav class="navtop">        <!--ELEMENTO COM MENU DE NAVEGAÇÃO-->
@@ -20,33 +21,47 @@
         </div>
         <div class="top-right">
             <a href="#" class="donate_btn">doar</a>
-            <a href="..\Animals for adoption\index.html" class="adopt_btn">adotar</a>
+            <a href="../Animals for adoption/index.html" class="adopt_btn">adotar</a>
         </div>
     </nav>
 
-    <section id="contato">
+    <section id="contato">  <!--ELEMENTO COM DESCRIÇÃO SOBRE A PÁGINA DE CONTATO-->
         <h1 align="center">Precisa de ajuda?</h1>
         <h3 align="center">Pois fique tranquilo, aqui você a encontra aumiguinho!</h3>
         <br>
-            <p>Então aumiguinho, achou que ficaria na patinha, certo? Mas claro que não, nossa equipe de voluntários da Pacotinho de Amor está sempre disposta em ajudar um dos nossos pequeninos a ganhar um novo lar. Todo doguinho adotado muda para sempre a vida dos donos, e claro, muda para melhor! Conquistando o coração de cada um, os cachorrinhos chegam a serem tratados como filhos biológicos, de tanto afeto que geram no dono, impossível não se apaixonar.</p>
-            <p>Logo abaixo está disponivel um dos meios de contato mais eficientes que temos, as caixas de mensagem, as quais são encaminhadas pela internet e não por patinhas, até nosso e-mail corporativo da fundação Pacotinho de Amor.</p>
+        <p>🐾 Olá, aumiguinho! Achou que ia ficar na patinha, né? Claro que não! 🐶 Nossa equipe de voluntários da Pacotinho de Amor está sempre pronta para ajudar nossos peludinhos a encontrarem um lar cheio de carinho. Cada doguinho adotado transforma a vida dos donos, e claro, é sempre para melhor! 🌟 Esses fofinhos conquistam o coração de todos, e não demora para serem tratados como verdadeiros membros da família, com muito amor e lambidas! ❤️</p>
+
+        <p>📩 Abaixo, você encontra uma das maneiras mais eficientes de entrar em contato com a gente: nossas caixinhas de mensagens. Elas são enviadas pela internet, e não por patinhas, direto para o nosso e-mail aqui na fundação Pacotinho de Amor. 💌🐾 Estamos ansiosos para ouvir de você!</p>
+        
             <br>
-            <h4>             
-                Nome completo: <input type="text" size="50">
-            </h4>
-            <h4>
-                E-mail: <input type="email" size="50">
-            </h4>
-            <h4>
-                Descreva o problema: <input type="text" size="100">
-            </h4>
-            <input type="button" title="enviar" value="enviar">
+            <div> <!--FORMULÁRIO DE CONTATO-->
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome">
+
+                <label for="e-mail">E-mail: </label>
+                <input type="text" id="e-mail">
+
+                <label for="telefone">Telefone: </label>
+                <input type="text" id="telefone">
+                
+                <select name="Assunto" id="assunto">
+                    <option value="Adoção">Adoção</option>
+                    <option value="Doação">Doação</option>
+                    <option value="Ajuda">Ajuda</option>
+                    <option value="Outros">Outros</option>
+                </select>
+
+                <label for="mensagem">Mensagem: </label>
+                <input type="text" id="mensagem">
+
+                <button onclick="enviar()">ENVIAR</button>
+            </div>
 
     </section>
-    <nav class="nav_footer">
+    <nav class="nav_footer">    <!--RODAPÉ DA PÁGINA-->
         <div class = "line2"></div>
         <div class="logo-footer"> 
-            <img src="media/logo-yellow-01.png" class="logo2">
+            <img src="./media/logo-yellow-01.png" class="logo2" alt="logo amarelo">
         </div> 
         <div class="center-footer">
             <ul class = main-nav-footer>
@@ -58,8 +73,8 @@
             <div class="rights"><p>©2024 Projeto Pacotinho de Amor. Todos os direitos reservados.</p></div>
             <div class="contact-icons">
                 <ul>
-                    <li><a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="media/instagram-01.png" class="instagram"></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="media/whatsapp-01.png" class="whatsapp"></a></li>
+                    <li><a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="media/instagram-01.png" class="instagram" alt="logo instagram"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="media/whatsapp-01.png" class="whatsapp" alt="logo whatsapp"></a></li>
                 </ul>
             </div>
 
