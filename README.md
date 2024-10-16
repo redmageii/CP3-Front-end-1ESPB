@@ -31,8 +31,8 @@ O projeto consiste no desenvolvimento de um site com foco em **adoção de anima
 2. **Davi Correa** - Página "Sobre o Projeto": História do projeto, fundadores e como o processo de resgate e adoção é conduzido. Página “Adotei e Agora?”.
 3. **Marcos Azuma** - Página de "Animais para Adoção": Galeria com fotos, descrições e detalhes dos animais disponíveis.  Página de Adoção com Interatividade.
 4. **Matheus Ricardo** - Página de Contato: Implementação de formulário funcional e links diretos para redes sociais. Lógica de Validação de Formulário.
-5. **Marcos Vinicius** - Seção "Processo de Adoção e Guia para Novos Adotantes": Passo a passo do processo e orientações para novos adotantes. Histórias de Adoção e Participação em Eventos.
-6. **Witalon Antonio** - Página de "Histórias de Adoção e Participação em Feirinhas": Relatos e eventos futuros de adoção.  Formulário na Página de Contato.
+5. **Marcos Vinicius** - Seção "Processo de Adoção e Guia para Novos Adotantes": Passo a passo do processo e orientações para novos adotantes. Formulário na Página de Contato.
+6. **Witalon Antonio** - Página de "Histórias de Adoção e Participação em Feirinhas": Relatos e eventos futuros de adoção. Histórias de Adoção e Participação em Eventos.
 
 ## Objetivos Gerais
 
