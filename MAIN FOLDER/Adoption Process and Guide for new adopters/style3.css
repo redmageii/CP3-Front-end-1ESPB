@@ -131,15 +131,6 @@ a.adopt_btn:hover {
     text-decoration-color: #5F377B;
 }
 
-footer {
-    background-color: #5f377b;
-    color: #fdfdfd;
-    text-align: center;
-    padding: 20px;
-}
-footer p {
-    margin: 5px 0;
-}
 
 .gradient-bg {
     background: linear-gradient(90deg, #fdf877, #5f377b);
