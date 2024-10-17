@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.navtop {
+    background-image: url('img/nav_bg-01.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+    
+    
+}
+
+/* PARÂMETROS DE AJUSTE PARA A POSIÇÃO DO LOGO NO MENU DE NAVEGAÇÃO */
+.navtop .logo-left img { 
+    max-width: 110px;
+    float:left;
+    height: auto;
+    transform: translate(290%, 0%);
+}
+
+.navtop a{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:700;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 13px;
+
+}
+
+.navtop .top-center ul.main_nav{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -130%);
+    list-style-type: none;
+}
+.navtop .main_nav li {
+    display: inline-block;
+}
+
+.navtop .top-right a {
+    float:right;
+    top:50%;
+    left:50%;
+    transform: translate(-280%, 55%);
+}
+
+/*EFEITOS DE TRANSIÇÃO NA BARRA DE NAVEGAÇÃO*/
+.navtop a:not(.donate_btn, .adopt_btn, .amor):hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #764599;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+/*BORDA CENTRALIZADA AOS BOTÕES*/
+
+a.donate_btn {
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #000000;
+    margin-right: 5px;
+    width:70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.adopt_btn {
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #ffffff;
+    margin-right: 5px;
+    width:70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*EFEITOS DE TRANSIÇÃO AO PASSAR MOUSE NOS BOTÕES DE DOAÇÃO E ADOÇÃO */
+
+a.donate_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #5F377B;
+    color: #FDF877;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+a.adopt_btn:hover {
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+    border-radius: 100px;	
+    background-color: #FDF877;
+    color: #5F377B;
+    outline: 2px solid;
+    text-decoration: underline;
+    text-decoration-color: #5F377B;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
