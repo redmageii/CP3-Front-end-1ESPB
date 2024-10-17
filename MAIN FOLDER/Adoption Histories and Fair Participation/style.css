@@ -261,54 +261,135 @@ a.adopt_btn:hover {
     text-decoration: underline;
 }
 .eventos {
-    display: flex; /* Para colocar a lista e o mapa lado a lado */
-    justify-content: space-between; /* Espaçamento entre os elementos *; /* Margem em volta da seção */
+    display: flex; 
+    justify-content: space-between; 
 }
 
 .lista-feiras {
-    width: 50%; /* Largura da lista de feiras */
+    width: 50%; 
     height: 450px;
     overflow-y: auto
 }
 
 .titulo-feiras {
-    text-align: center; /* Centraliza o título */
+    text-align: center; 
 }
 
 .lista-feiras ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding padrão */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 .lista-feiras li {
-    background-color: white; /* Cor de fundo dos retângulos */
-    border-bottom: 1px solid #ccc; /* Linha cinza entre os retângulos */
-    padding: 15px; /* Espaçamento interno */
-    display: flex; /* Para alinhar a imagem e o texto */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
-    cursor: pointer; /* Muda o cursor ao passar sobre o retângulo */
+    background-color: white;
+    border-bottom: 1px solid #ccc; 
+    padding: 15px;
+    display: flex; 
+    align-items: center; 
+    cursor: pointer; 
 }
 
 .lista-feiras li:last-child {
-    border-bottom: none; /* Remove a linha do último item */
+    border-bottom: none;
 }
 
 .lista-feiras li:hover {
-    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+    background-color: #e0e0e0;
 }
 
 .icone-evento {
     width: 60px;
     height: auto;
-    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    margin-right: 10px; 
 }
 
 .mapa {
-    width: 50%; /* Largura do iframe do mapa */
+    width: 50%; 
 }
 
 #google-map {
-    width: 100%; /* Ocupa 100% da largura do container */
-    height: 450px; /* Altura do iframe do Google Maps */
-    border: 0; /* Remove a borda do iframe */
+    width: 100%; 
+    height: 450px;
+    border: 0; 
+}
+
+.nav_footer {
+    background-color: #1a1a1a;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    height : 300px;
+    background-size:cover;
+}
+ 
+.nav_footer .line2 {
+    width: 70%;
+    height: 1px;
+    background-color: #FDF877;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%);
+}
+    
+.nav_footer a {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+    color: #FDF877;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+.nav_footer a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #FDF877;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+.nav_footer .rights {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:300;
+    font-size: 13px;
+    color: #FDF877;
+    text-align: center;
+    text-decoration: none;
+    padding: 240px 55px;
+}
+
+.nav_footer li {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav_footer ul.main-nav-footer {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-55%, -200%);
+    list-style-type: none;
+}
+
+.nav_footer .logo-footer img {
+    max-width: 80px;
+    float:left;
+    height: auto;
+    transform: translate(455%, 305%);
+
+}
+.nav_footer .contact-icons {
+    position:absolute;
+    top:48%;
+    left:50%;
+    transform: translate(-60%, 40%);
+    list-style-type: none;
+}
+.nav_footer .contact-icons img {
+    height:30px;
+    width:auto;
+}
+.nav_footer .contact-icons a {
+    padding: 0px 7px;
 }
