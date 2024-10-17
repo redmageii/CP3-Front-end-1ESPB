@@ -1,106 +1,153 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histórias de Adoção - Projeto Pacotinho de Amor</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Histórias de Adoção - Pacotinho de Amor</title>
+    <link rel="shortcut icon" href="img/icon-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- adicionando o cabeçalho -->
-    <header>
-        <nav>
-            <a href="../Home/index.html" class="active">Início</a></li>
-            <a href="#" class="donate_btn">Doar</a></li>
-            <a href="../Animals for adoption/index.html for adoption\index.html" class="adopt_btn">Adotar</a></li>
-            <a href="../Contact/index.html">Contato</a></li>
-            <a href="../About the project/index.html">Sobre Nós</a></li>
+    <header class="cabecalho">      
+        <nav class="navtop">        <!--ELEMENTO COM MENU DE NAVEGAÇÃO-->
+            <div class="logo-left">
+                <img class="logo" src="img/logo_purple.png" alt="logo">
+            </div>
+            <div class="top-center">
+                <ul class="main_nav">
+                <li><a href="..\Home\index.html" class="active">início</a></li>
+                <li><a href="..\About the project\index.html">sobre nós</a></li>
+                <li><a href="..\Contact\Contact Page.html">contato</a></li>    
+                </ul>
+            </div>
+            <div class="top-right">
+                <a href="#" class="donate_btn">doar</a>
+                <a href="../Animals for adoption/index.html" class="adopt_btn">adotar</a>
+            </div>
         </nav>
     </header>
-    <!--Criando uma section com as histórias de adoção-->
+    <!-- todas histórias são ficticias -->
     <section class="historias">
-        <h1>Histórias de Adoção</h1>
-        
-        <!--  div para agrupar somente os adodantes-->
+        <h2 class="titulo-historias">HISTÓRIAS DE QUEM ADOTOU</h2>
+        <div class="linha"></div>
         <div class="adodantes">
-            <article>
-            <h2> Maike Almeida e Fredy</h2>
-            <img src="img/fredy.jpg" alt="Foto de Maike e Fredy" width="300" height="400">
-            <p>"Adotar o Fredy mudou completamente minha vida. O Fredy é super calminho e tranquilo. O Projeto Pacotinho de Amor fez um trabalho incrível, e a adoção foi muito fácil. Recomendo a todos!" - Maike Almeida</p>
+            <article class="quem-adotou">
+                <img src="img/aspas.png" class="aspas">
+                <p class="depoimento-pessoa">Adotar a Luna foi a melhor decisão da minha vida! Desde o momento em que a vi no abrigo, senti uma conexão especial. Ela tinha um olhar tão doce e carente que não pude resistir."</p>
+                <p class="nome">Maria Silva adotou a Luna</p>
+                <img src="img/cachorro1.jpeg" class="foto animal">
             </article>
-        
-            <article>
-            <h2>Sarah Alves e Pandora</h2>
-            <img src="img/pandora.jpg" alt="Foto de Sarah e Pandora" width="300" height="400">
-            <p>"Adotei a pandora quando ela tinha 3 aninhos. Sempre tive o sonho de ter um cachorro, e na busca de realizar esse sonho, acabei encontrando o Projeto Pacotinho Amor." - Sarah Alves</p>
+            <article class="quem-adotou">
+                <img src="img/aspas.png" class="aspas">
+                <p class="depoimento-pessoa">O Max é meu companheiro inseparável! Ele entrou na minha vida em um momento muito difícil e me ajudou a encontrar alegria novamente. Cada dia com ele é uma nova aventura. Ele tem uma personalidade tão divertida e é sempre leal.</p>
+                <p class="nome">João Pereira adotou o Max</p>
+                <img src="img/cachorro2.jpeg" class="foto animal">
+            </article>
+            <article class="quem-adotou">
+                <img src="img/aspas.png" class="aspas">
+                <p class="depoimento-pessoa">A Bella trouxe muito amor e diversão para a nossa família. Desde que a adotamos, as risadas e os momentos felizes nunca pararam. Ela adora brincar com as crianças e é tão carinhosa que todos ficam encantados.</p>
+                <p class="nome">Ana Costa adotou a Bella</p>
+                <img src="img/cachorro3.jpeg" class="foto animal">
+            </article>
+            <article class="quem-adotou">
+                <img src="img/aspas.png" class="aspas">
+                <p class="depoimento-pessoa">O Thor é a luz da minha vida! Adotá-lo foi um ato de amor que trouxe tanto significado aos meus dias. Desde que ele chegou, a casa ficou cheia de alegria e risadas. </p>
+                <p class="nome">Ricardo Martins adotou o Thor</p>
+                <img src="img/cachorro4.jpeg" class="foto animal">
+            </article>
+            <article class="quem-adotou">
+                <img src="img/aspas.png" class="aspas">
+                <p class="depoimento-pessoa">Desde que adotamos o Charlie, nossos dias ficaram muito mais felizes e cheios de amor! Ele tem uma personalidade tão divertida e adora acompanhar nossas atividades diárias.  </p>
+                <p class="nome">Carlos Almeida adotou o Charlie</p>
+                <img src="img/cachorro5.jpeg" class="foto animal">
+            </article>
+            <article class="quem-adotou">
+                <img src="img/aspas.png" class="aspas">
+                <p class="depoimento-pessoa">A adoção do Zeus mudou minha vida de formas que eu nunca imaginei. Ele é tão carinhoso e leal! Desde o primeiro dia, sentimos uma conexão instantânea, e ele rapidamente se tornou o meu melhor amigo.</p>
+                <p class="nome">Juliana Ribeiro adotou o Zeus</p>
+                <img src="img/cachorro6.jpeg" class="foto animal">   
             </article>
         </div>
-      </section>
     </section>
-    <!-- Section para agrupar as feiras de adoção-->
     <section class="feiras">
-      <h1>Feirinhas de Adoção</h1>
-      
-      <!-- Div para agrupar somente as datas-->
-      <div class="datas">
-          <ul>
-              <li>
-                  <strong>Data:</strong> 22 de setembro de 2024 <br>
-                  <strong>Local:</strong> Shopping Internacional de Guarulhos <br>
-                  <strong>Horário:</strong> 12h às 16h
-              </li>
-              <li>
-                  <strong>Data:</strong> 28 de setembro de 2024 <br>
-                  <strong>Local:</strong> The Dog - Unidade Vila Rica <br>
-                  <strong>Horário:</strong> 10h às 15h
-              </li>
-              <li>
-                  <strong>Data:</strong> 05 de outubro de 2024 <br>
-                  <strong>Local:</strong> Morumbi Town Shopping <br>
-                  <strong>Horário:</strong> 11h às 15h
-              </li>
-              <li>
-                  <strong>Data:</strong> 19 de outubro de 2024 <br>
-                  <strong>Local:</strong> The Dog - Unidade Vila Diva <br>
-                  <strong>Horário:</strong> 10h às 15h
-              </li>
-              <li>
-                  <strong>Data:</strong> 26 de outubro de 2024 <br>
-                  <strong>Local:</strong> Petland Brooklin <br>
-                  <strong>Horário:</strong> 10h às 14h30
-              </li>
-              <li>
-                  <strong>Data:</strong> 10 de novembro de 2024 <br>
-                  <strong>Local:</strong> Museu do Ipiranga <br>
-                  <strong>Horário:</strong> 10h às 15h
-              </li>
-              <li>
-                  <strong>Data:</strong> 23 de novembro de 2024 <br>
-                  <strong>Local:</strong> The Dog - Unidade Penha <br>
-                  <strong>Horário:</strong> 10h às 15h
-              </li>
-              <li>
-                  <strong>Data:</strong> 07 de dezembro de 2024 <br>
-                  <strong>Local:</strong> The Dog - Unidade Vila Diva <br>
-                  <strong>Horário:</strong> 10h às 15h
-              </li>
-              <li>
-                  <strong>Data:</strong> 14 de dezembro de 2024 <br>
-                  <strong>Local:</strong> Petland - Moema Passáros <br>
-                  <strong>Horário:</strong> 11h às 16h
-              </li>
-          </ul>
-      </div>
-    
-      <p>Participe das nossas feirinhas de adoção e ajude a encontrar um lar para muitos animais carentes! Toda ajuda é bem-vinda, seja adotando ou divulgando.</p>
+        <img src="img/cachorro7.png" class="cat">
+        <div class="text-container">
+            <h1 class="encontre">ENCONTRE JÁ</h1>
+            <h1 class="feiras-adocao">FEIRAS DE ADOÇÃO</h1>
+            <p class="texto-feira">As feiras de adoção são eventos especiais dedicados a encontrar lares amorosos para animais abandonados e em situação de vulnerabilidade. Esses eventos não apenas ajudam a promover a adoção responsável, mas também oferecem uma oportunidade única para você conhecer e interagir com os animais que estão à espera de uma nova família.</p>
+            <button class="botao-encontre">ENCONTRE AGORA</button>
+        </div>
     </section>
-    <!-- adicionando o rodapé -->
-    <footer>
-        <nav>
-            <a href="..\Animals for adoption\index.html">adote</a>
-            <a href="..\Contact\Contact Page.html">contato</a>
-            <a href="..\About the project\index.html">sobre nós</a>
-            <a href="..\Home\index.html">início</a>
+    <section class="eventos">
+        <div class="lista-feiras">
+            <ul>
+                <li onclick="atualizarMapa('Shopping Internacional de Guarulhos')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>22 de setembro de 2024 - Shopping Internacional de Guarulhos (12h às 16h)</span>
+                </li>
+                <li onclick="atualizarMapa('The Dog - Unidade Vila Rica')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>28 de setembro de 2024 - The Dog - Unidade Vila Rica (10h às 15h)</span>
+                </li>
+                <li onclick="atualizarMapa('Morumbi Town Shopping')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>05 de outubro de 2024 - Morumbi Town Shopping (11h às 15h)</span>
+                </li>
+                <li onclick="atualizarMapa('The Dog - Unidade Vila Diva')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>19 de outubro de 2024 - The Dog - Unidade Vila Diva (10h às 15h)</span>
+                </li>
+                <li onclick="atualiazarMapa('Petland Brooklin')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>26 de outubro de 2024 - Petland Brooklin (10h às 14h30)</span>
+                </li>
+                <li onclick="atualizarMapa('Museu do Ipiranga')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>10 de novembro de 2024 - Museu do Ipiranga (10h às 15h)</span>
+                </li>
+                <li onclick="atualizarMapa('The Dog - Unidade Penha')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>23 de novembro de 2024 - The Dog - Unidade Penha (10h às 15h)</span>
+                </li>
+                <li onclick="atualizarMapa('The Dog - Unidade Vila Diva')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>07 de dezembro de 2024 - The Dog - Unidade Vila Diva (10h às 15h)</span>
+                </li>
+                <li onclick="atualizarMapa('Petland - Moema Passáros')">
+                    <img src="img/icon-evento.png" alt="Ícone de Evento" class="icone-evento">
+                    <span>14 de dezembro de 2024 - Petland - Moema Passáros (11h às 16h)</span>
+                </li>
+            </ul>
+        </div>
+        <div class="mapa">
+            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.156533916331!2d-46.50085938468009!3d-23.38681338473641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56a44c5bb60f%3A0x165d6c0275dcf4f5!2sShopping%20Internacional%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1635315735687!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+
+    <footer class="rodape">
+        <nav class="nav_footer">    <!--RODAPÉ DA PÁGINA-->
+            <div class = "line2"></div>
+            <div class="logo-footer"> 
+                <img src="./img/logo-yellow-01.png" class="logo2" alt="logo amarelo">
+            </div> 
+            <div class="center-footer">
+                <ul class = main-nav-footer>
+                    <li><a href="..\Home\index.html">início</a></li>
+                    <li><a href="..\About the project\index.html">sobre nós</a></li>
+                    <li><a href="..\Animals for adoption\index.html">adote</a></li>
+                    <li><a href="..\Contact\Contact Page.html">contato</a></li>          
+                </ul>
+                <div class="rights"><p>©2024 Projeto Pacotinho de Amor. Todos os direitos reservados.</p></div>
+                <div class="contact-icons">
+                    <ul>
+                        <li><a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="./img/instagram-01.png" class="instagram" alt="logo instagram"></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="./img/whatsapp-01.png" class="whatsapp" alt="logo whatsapp"></a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </footer>
 </body>
