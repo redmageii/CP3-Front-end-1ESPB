@@ -111,6 +111,94 @@ a.adopt_btn:hover {
     text-decoration-thickness: 3px;
 }
 
+.anml_text_bg{
+    width: 100vw;
+    height: 250px;
+    background-color: #5F377B;
+    position: absolute;
+    margin-top:-30px;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+.anml_text p.info {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    color: #FDF877;
+    margin-left: 50px;
+    margin-top: 30px; 
+    position:relative;
+    
+}
+.anml_text p.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight:300;
+    color: #ffffff;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    margin-left: 70px;
+    width: 91%;
+    margin-top: -50px;
+    position:absolute;
+}
+.anml_text2 {
+    position: relative;
+}
+.anml_text2_bg {
+    background-color: #FDF877;
+    width: 200vw; 
+    z-index:-1;        
+    height: 350px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.anml_text2 p.comodoar {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    color: #5F377B;
+    margin-top: 100px;
+    position:absolute;
+    margin-left: 50px;
+}
+.anml_text2 p.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight:400;
+    color: #000000;
+    /*AJUSTE DE MARGEM PARA O TEXTO*/
+    text-align: justify;
+    text-align-last: left;
+    width: 1700px;
+    margin-top: 200px;
+    margin-left: 70px;
+    position:absolute;
+}
+
+.anml_adoption p.adoption {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    color: #FDF877;
+    margin-left: 50px;
+    margin-top: 430px; 
+    position:relative;
+}
+
+.anml_adoption p.text3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:300;
+    color: #ffffff;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.anml_adoption_fmt {
+    margin-left: 50px;
+    margin-top: -30px;
+
+}
+
 .nav_footer {
     background-color: #1a1a1a;
     left: 0;
@@ -200,6 +288,6 @@ h2{
     color: #5f377b;
 }
 body{
-    background-color:#e0d7ec;
+    background-color:#5F377B;
 }
 
