@@ -260,3 +260,55 @@ a.adopt_btn:hover {
     color: #5F377B;
     text-decoration: underline;
 }
+.eventos {
+    display: flex; /* Para colocar a lista e o mapa lado a lado */
+    justify-content: space-between; /* Espaçamento entre os elementos *; /* Margem em volta da seção */
+}
+
+.lista-feiras {
+    width: 50%; /* Largura da lista de feiras */
+    height: 450px;
+    overflow-y: auto
+}
+
+.titulo-feiras {
+    text-align: center; /* Centraliza o título */
+}
+
+.lista-feiras ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.lista-feiras li {
+    background-color: white; /* Cor de fundo dos retângulos */
+    border-bottom: 1px solid #ccc; /* Linha cinza entre os retângulos */
+    padding: 15px; /* Espaçamento interno */
+    display: flex; /* Para alinhar a imagem e o texto */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    cursor: pointer; /* Muda o cursor ao passar sobre o retângulo */
+}
+
+.lista-feiras li:last-child {
+    border-bottom: none; /* Remove a linha do último item */
+}
+
+.lista-feiras li:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
+
+.icone-evento {
+    width: 60px;
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.mapa {
+    width: 50%; /* Largura do iframe do mapa */
+}
+
+#google-map {
+    width: 100%; /* Ocupa 100% da largura do container */
+    height: 450px; /* Altura do iframe do Google Maps */
+    border: 0; /* Remove a borda do iframe */
+}
