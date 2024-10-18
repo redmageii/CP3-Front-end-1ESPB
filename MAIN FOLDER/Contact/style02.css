@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+*{
+    /* Zerando a margem padrão do navegador */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
  
     margin:0;
     padding:0;
+    background-color: #FDF877;
 }
 .navtop {
     background-image: url('media/nav_bg-01.png');
@@ -14,6 +23,31 @@ body {
     padding: 10px 0;
     
 }
+/* math-r1card0 css */
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+h3{
+    color: #FDF877;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+#pageStart {
+    background-color: #5F377B;
+}
+
+#formulario {
+    background-color: #FDF877;
+}
+
 
 /* PARÂMETROS DE AJUSTE PARA A POSIÇÃO DO LOGO NO MENU DE NAVEGAÇÃO */
 .navtop .logo-left img { 
