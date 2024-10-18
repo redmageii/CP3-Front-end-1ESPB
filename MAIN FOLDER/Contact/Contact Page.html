@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotinho de Amor|Contato</title>
+    <link rel="stylesheet" href="style02.css">
+    <script src="./Contact.js" defer></script>
+</head>
+<body>
+    <nav class="navtop">        <!--ELEMENTO COM MENU DE NAVEGAÇÃO-->
+        <div class="logo-left">
+            <img class="logo" src="media/logo_purple.png" alt="logo">
+        </div>
+        <div class="top-center">
+            <ul class="main_nav">
+            <li><a href="..\Home\index.html" class="active">início</a></li>
+            <li><a href="..\About the project\index.html">sobre nós</a></li>
+            <li><a href="..\Contact\Contact Page.html">contato</a></li>    
+            </ul>
+        </div>
+        <div class="top-right">
+            <a href="#" class="donate_btn">doar</a>
+            <a href="../Animals for adoption/index.html" class="adopt_btn">adotar</a>
+        </div>
+    </nav>
+
+    <section id="contato">  <!--ELEMENTO COM DESCRIÇÃO SOBRE A PÁGINA DE CONTATO-->
+        <div id="pageStart">
+            <h1 align="center">Precisa de ajuda?</h1>
+            <h3 align="center">Pois fique tranquilo, aqui você a encontra aumiguinho!</h3>
+            <br>
+            <p>Sabemos que você não vai deixar essa oportunidade passar, certo? Nossa equipe de voluntários da Pacotinho de Amor está sempre disposta a ajudar nossos queridos peludinhos a encontrarem um lar repleto de carinho e alegria. Cada cachorrinho adotado transforma para sempre a vida de seus novos tutores, trazendo momentos de felicidade e afeto que aquecem o coração. Não demora muito para que esses doguinhos se tornem parte da família, recebendo todo o amor que merecem!</p>
+    
+            <p>Agora, se você tem alguma dúvida, sugestão ou gostaria de conversar conosco sobre adoção, estamos aqui para ouvir você! Nossa página de contato foi feita para que você possa se comunicar de forma fácil e rápida. Abaixo, você encontrará campos para preencher seus dados pessoais, selecionar o assunto e nos enviar uma mensagem detalhando seu problema ou dúvida. Tudo será encaminhado diretamente para nossa equipe, que está sempre pronta para ajudar. Queremos garantir que todos os doguinhos tenham um final feliz e que você tenha uma experiência incrível ao adotar!</p>
+    
+            <p>Preencha as caixas de dados logo abaixo e deixe sua mensagem. Estamos ansiosos para falar com você!</p>
+                <br>
+        </div>
+            <div id="formulario"> <!--FORMULÁRIO DE CONTATO-->
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome">
+
+                <label for="e-mail">E-mail: </label>
+                <input type="text" id="e-mail">
+
+                <label for="telefone">Telefone: </label>
+                <input type="text" id="telefone">
+                
+                <select name="Assunto" id="assunto">
+                    <option value="Adoção">Adoção</option>
+                    <option value="Doação">Doação</option>
+                    <option value="Ajuda">Ajuda</option>
+                    <option value="Outros">Outros</option>
+                </select>
+
+                <label for="mensagem">Mensagem: </label>
+                <input type="text" id="mensagem">
+
+                <button onclick="enviar()">ENVIAR</button>
+            </div>
+
+    </section>
+    <nav class="nav_footer">    <!--RODAPÉ DA PÁGINA-->
+        <div class = "line2"></div>
+        <div class="logo-footer"> 
+            <img src="./media/logo-yellow-01.png" class="logo2" alt="logo amarelo">
+        </div> 
+        <div class="center-footer">
+            <ul class = main-nav-footer>
+                <li><a href="..\Home\index.html">início</a></li>
+                <li><a href="..\About the project\index.html">sobre nós</a></li>
+                <li><a href="..\Animals for adoption\index.html">adote</a></li>
+                <li><a href="..\Contact\Contact Page.html">contato</a></li>          
+            </ul>
+            <div class="rights"><p>©2024 Projeto Pacotinho de Amor. Todos os direitos reservados.</p></div>
+            <div class="contact-icons">
+                <ul>
+                    <li><a href="https://www.instagram.com/projeto.pacotinhodeamor/"><img src="media/instagram-01.png" class="instagram" alt="logo instagram"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511994896555&text=Olá, acessei seu link no site e queria mais informações"><img src="media/whatsapp-01.png" class="whatsapp" alt="logo whatsapp"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+</body>
+</html>
