@@ -8,6 +8,8 @@ function enviar(){
     var assunto = document.getElementById('assunto').value;
     var mensagem = document.getElementById('mensagem').value;
 
+    
+
     if (nome.length >= 3 && email !== '' && telefone !== '' && mensagem !== ''){
         alert(`Mensagem enviada com sucesso!\nNome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\nAssunto: ${assunto}\nMensagem: ${mensagem}`);
     }
