@@ -39,25 +39,32 @@
                 <br>
         </div>
             <div id="formulario"> <!--FORMULÁRIO DE CONTATO-->
-                <label for="nome">Nome: </label>
-                <input type="text" id="nome">
-
-                <label for="e-mail">E-mail: </label>
-                <input type="text" id="e-mail">
-
-                <label for="telefone">Telefone: </label>
-                <input type="text" id="telefone">
+                <div id="pessoal">
+                    <ul>
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome">
+                    </ul>
+                    <ul>
+                        <label for="e-mail">E-mail: </label>
+                        <input type="text" id="e-mail">
+                    </ul>
+                    <ul>
+                        <label for="telefone">Telefone: </label>
+                        <input type="text" id="telefone">
+                    </ul>
+                </div>
+                <div id="problema">
+                    <select name="Assunto" id="assunto">
+                        <option value="Adoção">Adoção</option>
+                        <option value="Doação">Doação</option>
+                        <option value="Ajuda">Ajuda</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+    
+                    <label for="mensagem">Mensagem: </label>
+                    <input type="text" id="mensagem">
+                </div>
                 
-                <select name="Assunto" id="assunto">
-                    <option value="Adoção">Adoção</option>
-                    <option value="Doação">Doação</option>
-                    <option value="Ajuda">Ajuda</option>
-                    <option value="Outros">Outros</option>
-                </select>
-
-                <label for="mensagem">Mensagem: </label>
-                <input type="text" id="mensagem">
-
                 <button onclick="enviar()">ENVIAR</button>
             </div>
 

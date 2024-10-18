@@ -40,12 +40,35 @@ p{
     text-align: center;
 }
 
+button {
+    background-color: #5F377B;
+    color: #FDF877;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#pessoal {
+    margin-top: 160px;
+    margin-right: 700px;
+}
+
+#problema {
+    flex: auto;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
 #pageStart {
     background-color: #5F377B;
+    text-align: center;
 }
 
 #formulario {
     background-color: #FDF877;
+    text-align: center;
 }
 
 
