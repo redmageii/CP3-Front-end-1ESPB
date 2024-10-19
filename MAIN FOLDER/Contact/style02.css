@@ -10,7 +10,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
- 
     margin:0;
     padding:0;
     background-color: #FDF877;
@@ -38,7 +37,10 @@ h3{
 p{
     color: #ffffff;
     text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
+
 
 button {
     background-color: #5F377B;
@@ -48,17 +50,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-}
+}   
 
-#pessoal {
-    margin-top: 160px;
-    margin-right: 700px;
-}
-
-#problema {
-    flex: auto;
-    margin-top: -60px;
-    margin-left: 400px;
+button:hover {
+    background-color: #FDF877;
+    color: #5F377B;
+    border: 2px solid #5F377B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 #pageStart {
@@ -66,9 +67,27 @@ button {
     text-align: center;
 }
 
-#formulario {
+#formulario{
+    display: flex;
+    position: absolute center;
     background-color: #FDF877;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: -140px;
+}
+& input, textarea, select {
+    width: 30%;
+    font-size: 1vw;
+    padding: 0.5vw;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+#mensagem {
+    padding-bottom: 7%;
 }
 
 
