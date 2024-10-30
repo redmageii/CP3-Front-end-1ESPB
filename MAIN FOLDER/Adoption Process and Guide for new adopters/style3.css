@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #e0d7ec;
+    background-color: #5f377b; 
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333333;
+    color: #fdfdfd; 
 }
 
 .box-title {
-    background-color: #5f377B;
-    color: white;
+    background-color: #5f377b; 
+    color: rgb(255, 255, 255);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -19,24 +19,24 @@ body {
 }
 
 h1, h2 {
-    color: #5f377b;
+    color: #fdfdfd; 
 }
 
 h3 {
-    color: #b98ebc;
+    color: #b98ebc; 
 }
 
 a {
-    color: #fdfdfd;
+    color: #ffffff;
     text-decoration: none;
-    background-color: #5f377b;
+    background-color: #5f377b; 
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 a:hover {
-    background-color: #fdf877;
-    color: #5f377b;
+    background-color: #fdf877; 
+    color: #5f377b; 
 }
 
 .container {
@@ -59,14 +59,15 @@ ul.adoption-steps {
 }
 
 li.adoption-step {
+    color: #000000;
     margin-bottom: 15px;
     padding: 10px;
-    border-left: 4px solid #5f377B;
+    border-left: 4px solid #5f377b; 
     position: relative;
 }
 
 li.adoption-step strong {
-    color: #5f377B;
+    color: #5f377b; 
 }
 
 li.adoption-step::before {
@@ -74,7 +75,7 @@ li.adoption-step::before {
     position: absolute;
     left: -25px;
     font-size: 20px;
-    color: #5f377B;
+    color: #5f377b; 
 }
 
 .navtop {
@@ -83,7 +84,6 @@ li.adoption-step::before {
     overflow: hidden;
     position: relative;
     padding: 10px 0;
-    
 }
 
 .navtop .logo-left img { 
@@ -99,7 +99,8 @@ li.adoption-step::before {
     left:50%;
     transform: translate(-280%, 55%);
 }
-.navtop .top-center ul.main_nav{
+
+.navtop .top-center ul.main_nav {
     position:absolute;
     top:50%;
     left:50%;
@@ -115,11 +116,12 @@ li.adoption-step::before {
     font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    color: #ffffff;
+    color: #ffffff; 
     text-align: center;
     text-decoration: none;
     padding: 0px 13px;
 }
+
 navtop a:not(.donate_btn, .adopt_btn, .amor):hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
@@ -127,6 +129,7 @@ navtop a:not(.donate_btn, .adopt_btn, .amor):hover {
     text-underline-offset: 5px;
     text-decoration-thickness: 4px;
 }
+
 a.donate_btn, a.adopt_btn {
     border-radius: 100px;
     width: 70px;
@@ -138,83 +141,48 @@ a.donate_btn, a.adopt_btn {
 }
 
 a.donate_btn {
-    border-radius: 100px;	
-    background-color: #FDF877;
+    background-color: #fdf877; 
     color: #000000;
-    margin-right: 5px;
-    width:70px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 a.adopt_btn {
-    border-radius: 100px;	
-    background-color: #5F377B;
     color: #ffffff;
-    margin-right: 5px;
-    width:70px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-/*a.donate_btn:hover, a.adopt_btn:hover {
-    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
-    outline: 2px solid;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-}*/
 
 a.donate_btn:hover {
     transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
-    border-radius: 100px;	
-    background-color: #5F377B;
-    color: #FDF877;
-    outline: 2px solid;
-    text-decoration: underline;
-    text-decoration-color: #FDF877;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 3px;
+    background-color: #5f377b; 
+    color: #fdf877; 
 }
 
 a.adopt_btn:hover {
     transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
-    border-radius: 100px;	
-    background-color: #FDF877;
-    color: #5F377B;
-    outline: 2px solid;
-    text-decoration: underline;
-    text-decoration-color: #5F377B;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 3px;
+    background-color: #fdf877; 
+    color: #5f377b; 
 }
 
 .gradient-bg {
-    background: linear-gradient(90deg, #fdf877, #5f377b);
+    background: linear-gradient(90deg, #fbc02d, #5b1d8b); 
     padding: 20px;
     border-radius: 10px;
-    color: #fdfdfd;
+    color: #fdfdfd; 
 }
 
 .nav_footer {
-    background-color: #1a1a1a;
+    background-color: #1a1a1a; 
     left: 0;
     bottom: 0;
     width: 100vw;
     position: relative;
     overflow: hidden;
-    height : 300px;
-    background-size:cover;
-    margin-top:200px;
+    height: 300px;
+    margin-top: 200px;
 }
 
 .nav_footer .line2 {
     width: 70%;
     height: 1px;
-    background-color: #FDF877;
+    background-color: #fdf877; 
     position: absolute;
     left: 50%;
     top: 50%;
@@ -229,20 +197,17 @@ a.adopt_btn:hover {
     list-style-type: none;
 }
 
-
 .nav_footer .logo-footer img {
     max-width: 80px;
     float:left;
     height: auto;
     transform: translate(455%, 305%);
-
 }
 
 .nav_footer a {
     font-family: 'Comfortaa', sans-serif;
-    font-weight:400;
+    font-weight: 400;
     font-size: 14px;
-    color: #FDF877;
     text-align: center;
     text-decoration: none;
     padding: 0px 15px;
@@ -251,38 +216,41 @@ a.adopt_btn:hover {
 .nav_footer a:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #FDF877;
+    text-decoration-color: #fdf877;
     text-underline-offset: 5px;
-    text-decoration-thickness: 4px;
 }
+
 .nav_footer .rights {
     font-family: 'Comfortaa', sans-serif;
-    font-weight:300;
+    font-weight: 300;
     font-size: 13px;
-    color: #FDF877;
+    color: #fdf877; 
     text-align: center;
-    text-decoration: none;
     padding: 240px 55px;
 }
+
 .nav_footer li {
     display: inline-block;
     list-style-type: none;
 }
 
 .nav_footer .contact-icons {
-    position:absolute;
-    top:48%;
-    left:50%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
     transform: translate(-60%, 40%);
     list-style-type: none;
 }
+
 .nav_footer .contact-icons img {
-    height:30px;
-    width:auto;
+    height: 30px;
+    width: auto;
 }
+
 .nav_footer .contact-icons a {
     padding: 0px 7px;
 }
+
 .accordion {
     margin-top: 20px;
 }
@@ -291,14 +259,14 @@ a.adopt_btn:hover {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #fff; 
 }
 
 .accordion-header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7; 
     cursor: pointer;
     color: #333;
     font-weight: bold;
@@ -307,7 +275,7 @@ a.adopt_btn:hover {
 .accordion-content {
     display: none;
     padding: 15px;
-    background-color: #fafafa;
+    background-color: #fafafa; 
     color: #333;
 }
 
@@ -323,4 +291,3 @@ a.adopt_btn:hover {
 .accordion-item.active .arrow {
     transform: rotate(180deg);
 }
-
