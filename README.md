@@ -1,6 +1,6 @@
 # Resumo do Projeto
 
-Consiste em um projeto colaborativo para o desenvolvimento de um website para a ONG de animais Pacotinho de Amor, com integrantes do grupo da Faculdade de Informática e Administração Paulista, do curso de Engenharia de Software. A cada membro foi atribuída a tarefa de elaborar o código de uma página do site. <br/> A página do projeto pode ser visualizada através do link do github pages: `https://math-r1card0.github.io/CP3-Front-end-1ESPB/MAIN%20FOLDER/Home/index.html`. 
+Consiste em um projeto colaborativo para o desenvolvimento de um website para a ONG de animais Pacotinho de Amor, com integrantes do grupo da Faculdade de Informática e Administração Paulista, do curso de Engenharia de Software. A cada membro foi atribuída a tarefa de elaborar o código de uma página do site. <br> A página do projeto pode ser visualizada através do link do github pages: `https://math-r1card0.github.io/CP3-Front-end-1ESPB/MAIN%20FOLDER/Home/index.html`. 
 
 # Minhas contribuições
 
