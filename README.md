@@ -27,7 +27,7 @@ O projeto consiste no desenvolvimento de um site com foco em **adoção de anima
 
 ## Participantes e Responsabilidades
 
-1. **Filip Arnhold** - Desenvolvimento da *Home* (página inicial): Header com navegação, resumo do projeto e footer informativo. Protótipo no Figma. 
+1. **Filip Arnhold** - Desenvolvimento integral da *Home page*. Ilustração de elementos de design gráfico utilizando softwares do pacote Adobe. Protótipo no Figma. 
 2. **Davi Correa** - Página "Sobre o Projeto": História do projeto, fundadores e como o processo de resgate e adoção é conduzido. Página “Adotei e Agora?”.
 3. **Marcos Azuma** - Página de "Animais para Adoção": Galeria com fotos, descrições e detalhes dos animais disponíveis.  Página de Adoção com Interatividade.
 4. **Matheus Ricardo** - Página de Contato: Implementação de formulário funcional e links diretos para redes sociais. Lógica de Validação de Formulário.
