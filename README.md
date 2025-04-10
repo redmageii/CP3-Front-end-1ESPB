@@ -1,12 +1,12 @@
 # Resumo do Projeto
 
-Consiste em um projeto colaborativo para o desenvolvimento de um website para a ONG de animais Pacotinho de Amor, com integrantes do grupo da Faculdade de Informática e Administração Paulista, do curso de Engenharia de Software. A cada membro foi atribuída a tarefa de elaborar o código de uma página do site. <br> A página do projeto pode ser visualizada através do link do github pages: `https://math-r1card0.github.io/CP3-Front-end-1ESPB/MAIN%20FOLDER/Home/index.html`. 
+Consiste em um projeto colaborativo para o desenvolvimento de um website para a ONG de animais Pacotinho de Amor, com integrantes do grupo da Faculdade de Informática e Administração Paulista, do curso de Engenharia de Software. A cada membro foi atribuída a tarefa de elaborar o código de uma página do site. <br> A página do projeto pode ser visualizada através do link do github pages: <br/> https://math-r1card0.github.io/CP3-Front-end-1ESPB/MAIN%20FOLDER/Home/index.html
 
 # Minhas contribuições
 
 - Desenvolvimento integral do código da *Home page* além de coordenar a direção geral de design de site (tipografia, cores, entre outros). 
 - Ilustração de elementos de design gráfico utilizando softwares do pacote Adobe. Ilustração de protótipo do website finalizado no Figma.
-- Confira meu protótipo feito no figma! `https://www.figma.com/proto/ykRZNPGMsC98oT9Ur6amxs/Front-end%2FWeb-dev-CP2?node-id=34-11&starting-point-node-id=1%3A4&t=Yz9C2NFWdZMZWYAf-1`
+- Confira meu protótipo feito no figma! https://www.figma.com/proto/ykRZNPGMsC98oT9Ur6amxs/Front-end%2FWeb-dev-CP2?node-id=34-11&starting-point-node-id=1%3A4&t=Yz9C2NFWdZMZWYAf-1
 
 ## Tecnologias utilizadas por mim
 
